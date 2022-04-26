@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "92kxm9S6Gs8udGi1MFRZ/tlXU2bAwI1FaRCZIT1Zcc640sDwwY9lNiTLyHGO6BfYq0deD1JUtDp0SHwBXBkYqw==",
+  "dgSpecHash": "gi9I8eD3Ss31XiiFes4bcT6NdDTnUl/icRJuS3kGFGPEoBg+kKHQVlMIMS0jBne2hmeJEKjoXU60nyy3EcoBgw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\eTrade.Persistence\\eTrade.Persistence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mustafabati\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\mustafabati\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
+    "C:\\Users\\mustafabati\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.4\\microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.4\\microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",

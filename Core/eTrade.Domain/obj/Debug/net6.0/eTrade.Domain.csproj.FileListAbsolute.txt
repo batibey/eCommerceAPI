@@ -1,6 +1,5 @@
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Domain\bin\Debug\net6.0\eTrade.Domain.deps.json
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Domain\bin\Debug\net6.0\eTrade.Domain.dll
-C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Domain\bin\Debug\net6.0\ref\eTrade.Domain.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Domain\bin\Debug\net6.0\eTrade.Domain.pdb
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Domain\obj\Debug\net6.0\eTrade.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Domain\obj\Debug\net6.0\eTrade.Domain.AssemblyInfoInputs.cache
@@ -10,3 +9,4 @@ C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Domain\obj\Debug\ne
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Domain\obj\Debug\net6.0\ref\eTrade.Domain.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Domain\obj\Debug\net6.0\eTrade.Domain.pdb
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Domain\obj\Debug\net6.0\eTrade.Domain.csproj.AssemblyReference.cache
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Domain\obj\Debug\net6.0\refint\eTrade.Domain.dll

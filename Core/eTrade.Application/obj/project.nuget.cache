@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ncxQuRwwjDhAhWQsNfq1HiJC7+hDoXHuKDctfrZgJvrM1KLD8rPj8iky5S1aoBEhFAskPb2jbE1hs0/yPhBHww==",
+  "dgSpecHash": "VMkKcxl1VVDCSPqZHTEKLcGXqaHDDMM2FrbmBg79Ymuihe9LY7XG8RdQ2D82RarUcZgJMI2fbLAKgZRjqyIMEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Core\\eTrade.Application\\eTrade.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mustafabati\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\mustafabati\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
+    "C:\\Users\\mustafabati\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.4\\microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.4\\microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.4\\microsoft.entityframeworkcore.analyzers.6.0.4.nupkg.sha512",

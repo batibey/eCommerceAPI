@@ -50,6 +50,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.4, )"
@@ -104,6 +116,70 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\eTrade.Infastucture\\eTrade.Infastucture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\eTrade.Infastucture\\eTrade.Infastucture.csproj",
+        "projectName": "eTrade.Infastucture",
+        "projectPath": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\eTrade.Infastucture\\eTrade.Infastucture.csproj",
+        "packagesPath": "C:\\Users\\mustafabati\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\eTrade.Infastucture\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mustafabati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.tourvisio.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Core\\eTrade.Application\\eTrade.Application.csproj": {
+                "projectPath": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Core\\eTrade.Application\\eTrade.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -258,6 +334,9 @@
             "projectReferences": {
               "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Core\\eTrade.Application\\eTrade.Application.csproj": {
                 "projectPath": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Core\\eTrade.Application\\eTrade.Application.csproj"
+              },
+              "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\eTrade.Infastucture\\eTrade.Infastucture.csproj": {
+                "projectPath": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\eTrade.Infastucture\\eTrade.Infastucture.csproj"
               },
               "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\eTrade.Persistence\\eTrade.Persistence.csproj": {
                 "projectPath": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\eTrade.Persistence\\eTrade.Persistence.csproj"

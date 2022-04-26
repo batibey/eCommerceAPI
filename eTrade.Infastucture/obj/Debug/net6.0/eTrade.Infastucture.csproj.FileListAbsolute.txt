@@ -1,6 +1,5 @@
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\bin\Debug\net6.0\eTrade.Infastucture.deps.json
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\bin\Debug\net6.0\eTrade.Infastucture.dll
-C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\bin\Debug\net6.0\ref\eTrade.Infastucture.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\bin\Debug\net6.0\eTrade.Infastucture.pdb
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\bin\Debug\net6.0\eTrade.Application.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\bin\Debug\net6.0\eTrade.Domain.dll
@@ -15,3 +14,4 @@ C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\obj\Debug\n
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\obj\Debug\net6.0\eTrade.Infastucture.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\obj\Debug\net6.0\ref\eTrade.Infastucture.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\obj\Debug\net6.0\eTrade.Infastucture.pdb
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\obj\Debug\net6.0\refint\eTrade.Infastucture.dll

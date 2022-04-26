@@ -20,6 +20,38 @@
           "eTrade.Persistence.dll": {}
         }
       },
+      "FluentValidation/10.4.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.4.0.0"
+          }
+        }
+      },
+      "FluentValidation.AspNetCore/10.4.0": {
+        "dependencies": {
+          "FluentValidation": "10.4.0",
+          "FluentValidation.DependencyInjectionExtensions": "10.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.4.0.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/10.4.0": {
+        "dependencies": {
+          "FluentValidation": "10.4.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.4.0.0"
+          }
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -86,12 +118,6 @@
       "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
         }
       },
       "Microsoft.Extensions.Caching.Memory/6.0.1": {
@@ -124,12 +150,6 @@
       "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
         }
       },
       "Microsoft.Extensions.Configuration.FileExtensions/6.0.0": {
@@ -139,12 +159,6 @@
           "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
           "Microsoft.Extensions.FileProviders.Physical": "6.0.0",
           "Microsoft.Extensions.Primitives": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
         }
       },
       "Microsoft.Extensions.Configuration.Json/6.0.0": {
@@ -154,43 +168,18 @@
           "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
           "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
           "System.Text.Json": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
         }
       },
       "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        }
-      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
       "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "6.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
         }
       },
       "Microsoft.Extensions.FileProviders.Physical/6.0.0": {
@@ -198,22 +187,9 @@
           "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
           "Microsoft.Extensions.FileSystemGlobbing": "6.0.0",
           "Microsoft.Extensions.Primitives": "6.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.FileProviders.Physical.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
         }
       },
-      "Microsoft.Extensions.FileSystemGlobbing/6.0.0": {
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        }
-      },
+      "Microsoft.Extensions.FileSystemGlobbing/6.0.0": {},
       "Microsoft.Extensions.Logging/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
@@ -221,43 +197,18 @@
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
           "System.Diagnostics.DiagnosticSource": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        }
-      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {},
       "Microsoft.Extensions.Options/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Primitives": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
         }
       },
       "Microsoft.Extensions.Primitives/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
         }
       },
       "Npgsql/6.0.3": {
@@ -309,6 +260,9 @@
       },
       "eTrade.Application/1.0.0": {
         "dependencies": {
+          "FluentValidation": "10.4.0",
+          "FluentValidation.AspNetCore": "10.4.0",
+          "FluentValidation.DependencyInjectionExtensions": "10.4.0",
           "Microsoft.EntityFrameworkCore": "6.0.4",
           "eTrade.Domain": "1.0.0"
         },
@@ -328,6 +282,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidation/10.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rVI1b5L3pq3layrRKIo3N7AT3PWey8ocPZhf6zeHYf6LBBvnP1KzW3bm7KmeazOWW8m1KXMD+shfviIcKSgQ0g==",
+      "path": "fluentvalidation/10.4.0",
+      "hashPath": "fluentvalidation.10.4.0.nupkg.sha512"
+    },
+    "FluentValidation.AspNetCore/10.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CF/YkJ+ls/Y76ZTZtQ6Ye9rfRM4TcAL6R8c4q8dDRQzS0/6hL+PG/Vssht3ha/wFMoBd0kiosC7JFxbtWBTccg==",
+      "path": "fluentvalidation.aspnetcore/10.4.0",
+      "hashPath": "fluentvalidation.aspnetcore.10.4.0.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/10.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-25LzRDm9Chfyw4aPMsoE+3qkz1x2evb2/537hUcnqkhA9zpREfQYm8y1JF1LCMdcH57q5QAZ27X7dqVOcN6TOA==",
+      "path": "fluentvalidation.dependencyinjectionextensions/10.4.0",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
