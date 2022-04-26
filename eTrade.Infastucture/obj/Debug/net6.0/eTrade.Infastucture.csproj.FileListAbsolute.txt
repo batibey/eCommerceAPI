@@ -1,0 +1,17 @@
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\bin\Debug\net6.0\eTrade.Infastucture.deps.json
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\bin\Debug\net6.0\eTrade.Infastucture.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\bin\Debug\net6.0\ref\eTrade.Infastucture.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\bin\Debug\net6.0\eTrade.Infastucture.pdb
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\bin\Debug\net6.0\eTrade.Application.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\bin\Debug\net6.0\eTrade.Domain.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\bin\Debug\net6.0\eTrade.Application.pdb
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\bin\Debug\net6.0\eTrade.Domain.pdb
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\obj\Debug\net6.0\eTrade.Infastucture.csproj.AssemblyReference.cache
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\obj\Debug\net6.0\eTrade.Infastucture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\obj\Debug\net6.0\eTrade.Infastucture.AssemblyInfoInputs.cache
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\obj\Debug\net6.0\eTrade.Infastucture.AssemblyInfo.cs
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\obj\Debug\net6.0\eTrade.Infastucture.csproj.CoreCompileInputs.cache
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\obj\Debug\net6.0\eTrade.Infastucture.csproj.CopyComplete
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\obj\Debug\net6.0\eTrade.Infastucture.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\obj\Debug\net6.0\ref\eTrade.Infastucture.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Infastucture\obj\Debug\net6.0\eTrade.Infastucture.pdb

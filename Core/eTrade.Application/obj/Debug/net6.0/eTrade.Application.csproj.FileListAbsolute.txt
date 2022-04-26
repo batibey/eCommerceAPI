@@ -1,0 +1,15 @@
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Application\bin\Debug\net6.0\eTrade.Application.deps.json
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Application\bin\Debug\net6.0\eTrade.Application.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Application\bin\Debug\net6.0\ref\eTrade.Application.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Application\bin\Debug\net6.0\eTrade.Application.pdb
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Application\bin\Debug\net6.0\eTrade.Domain.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Application\bin\Debug\net6.0\eTrade.Domain.pdb
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Application\obj\Debug\net6.0\eTrade.Application.csproj.AssemblyReference.cache
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Application\obj\Debug\net6.0\eTrade.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Application\obj\Debug\net6.0\eTrade.Application.AssemblyInfoInputs.cache
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Application\obj\Debug\net6.0\eTrade.Application.AssemblyInfo.cs
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Application\obj\Debug\net6.0\eTrade.Application.csproj.CoreCompileInputs.cache
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Application\obj\Debug\net6.0\eTrade.Application.csproj.CopyComplete
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Application\obj\Debug\net6.0\eTrade.Application.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Application\obj\Debug\net6.0\ref\eTrade.Application.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Core\eTrade.Application\obj\Debug\net6.0\eTrade.Application.pdb

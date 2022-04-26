@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2a4274a9-aadc-4c4f-b9e4-af4fc96c7790": {
+      "ProjectGuid": "2a4274a9-aadc-4c4f-b9e4-af4fc96c7790",
+      "DisplayName": "eTradeAPI",
+      "ColorIndex": 0
+    },
+    "b727b49f-42f5-43f3-a36f-334ae9c54b5a": {
+      "ProjectGuid": "b727b49f-42f5-43f3-a36f-334ae9c54b5a",
+      "DisplayName": "eTrade.Domain",
+      "ColorIndex": 1
+    },
+    "34611bd1-f751-4fce-864e-330e9b06b420": {
+      "ProjectGuid": "34611bd1-f751-4fce-864e-330e9b06b420",
+      "DisplayName": "eTrade.Application",
+      "ColorIndex": 2
+    },
+    "8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4": {
+      "ProjectGuid": "8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4",
+      "DisplayName": "eTrade.Infastucture",
+      "ColorIndex": 3
+    },
+    "8a5fc480-054e-4047-a04b-61af153a44f0": {
+      "ProjectGuid": "8a5fc480-054e-4047-a04b-61af153a44f0",
+      "DisplayName": "eTrade.Persistence",
+      "ColorIndex": 4
+    },
+    "c0a8e376-b009-4154-a327-5d5595856e52": {
+      "ProjectGuid": "c0a8e376-b009-4154-a327-5d5595856e52",
+      "DisplayName": "eTradeAPI.API",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 6
+}

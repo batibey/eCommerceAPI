@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "I45pkKhcjjZ5oxvEkM+Ltp1/RzoDg+P8yAC7STULH7A=",
+  "Source": "eTradeAPI.API",
+  "BasePath": "_content/eTradeAPI.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
