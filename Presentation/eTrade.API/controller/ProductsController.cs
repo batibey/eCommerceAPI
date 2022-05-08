@@ -1,4 +1,5 @@
 ﻿using eTrade.Application.Repositories;
+using eTrade.Application.RequestParameters;
 using eTrade.Application.ViewModels.Products;
 using eTrade.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -22,9 +23,24 @@ namespace eTradeAPI.API.controller
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get([FromQuery] Pagination pagination)
         {
-            return Ok(_productReadRepository.GetAll(false));
+            var totalCount = _productReadRepository.GetAll(false).Count();
+            var products = _productReadRepository.GetAll(false).Skip(pagination.Page * pagination.Size).Take(pagination.Size).Select(p => new
+            {
+                p.Id,
+                p.Name,
+                p.Stock,
+                p.Price,
+                p.CreatedDate,
+                p.UpdatedDate
+            }).ToList();
+
+            return Ok(new
+            {
+                totalCount,
+                products
+            });
         }
 
         [HttpGet("{id}")]
@@ -35,11 +51,7 @@ namespace eTradeAPI.API.controller
 
         [HttpPost]
         public async Task<IActionResult> Post(VM_Create_Product model)
-        {
-            if (ModelState.IsValid)
-            {
-
-            }
+        {           
             await _productWriteRepository.AddAsync(new()
             {
                 Name = model.Name,
