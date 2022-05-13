@@ -45,3 +45,4 @@ C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Deb
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\refint\eTradeAPI.API.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\eTrade.Infastucture.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\eTrade.Infastucture.pdb
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\eTradeAPI.API.staticwebassets.runtime.json

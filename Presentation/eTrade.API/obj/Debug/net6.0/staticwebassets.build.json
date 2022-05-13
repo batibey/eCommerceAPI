@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "I45pkKhcjjZ5oxvEkM+Ltp1/RzoDg+P8yAC7STULH7A=",
+  "Hash": "bEVSJYJhAJ+YVusrGZAt3rJZVUs5rfHc+5upySth8Z4=",
   "Source": "eTradeAPI.API",
   "BasePath": "_content/eTradeAPI.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "eTradeAPI.API\\wwwroot",
+      "Source": "eTradeAPI.API",
+      "ContentRoot": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Presentation\\eTrade.API\\wwwroot\\",
+      "BasePath": "_content/eTradeAPI.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

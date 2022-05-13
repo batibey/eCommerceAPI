@@ -20,4 +20,8 @@
     <ProjectReference Include="..\..\eTrade.Persistence\eTrade.Persistence.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
 </Project>
