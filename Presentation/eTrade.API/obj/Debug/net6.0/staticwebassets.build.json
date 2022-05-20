@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aEgS9LHN3/q1GqE4e2KMGSLcnPa7/DfkbaNk96ITR9M=",
+  "Hash": "bEVSJYJhAJ+YVusrGZAt3rJZVUs5rfHc+5upySth8Z4=",
   "Source": "eTradeAPI.API",
   "BasePath": "_content/eTradeAPI.API",
   "Mode": "Default",
@@ -15,57 +15,5 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [
-    {
-      "Identity": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Presentation\\eTrade.API\\wwwroot\\resource\\product-images\\1881312155.jpg",
-      "SourceId": "eTradeAPI.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Presentation\\eTrade.API\\wwwroot\\",
-      "BasePath": "_content/eTradeAPI.API",
-      "RelativePath": "resource/product-images/1881312155.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\product-images\\1881312155.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Presentation\\eTrade.API\\wwwroot\\resource\\product-images\\2075457381.png",
-      "SourceId": "eTradeAPI.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Presentation\\eTrade.API\\wwwroot\\",
-      "BasePath": "_content/eTradeAPI.API",
-      "RelativePath": "resource/product-images/2075457381.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\product-images\\2075457381.png"
-    },
-    {
-      "Identity": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Presentation\\eTrade.API\\wwwroot\\resource\\product-images\\307966795.png",
-      "SourceId": "eTradeAPI.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Presentation\\eTrade.API\\wwwroot\\",
-      "BasePath": "_content/eTradeAPI.API",
-      "RelativePath": "resource/product-images/307966795.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\product-images\\307966795.png"
-    }
-  ]
+  "Assets": []
 }

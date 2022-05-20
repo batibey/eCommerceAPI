@@ -13,7 +13,7 @@ C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Persistence\obj\Debug\ne
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Persistence\obj\Debug\net6.0\eTrade.Persistence.csproj.CoreCompileInputs.cache
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Persistence\obj\Debug\net6.0\eTrade.Persistence.csproj.CopyComplete
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Persistence\obj\Debug\net6.0\eTrade.Persistence.dll
-C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Persistence\obj\Debug\net6.0\ref\eTrade.Persistence.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Persistence\obj\Debug\net6.0\refint\eTrade.Persistence.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Persistence\obj\Debug\net6.0\eTrade.Persistence.pdb
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Persistence\obj\Debug\net6.0\eTrade.Persistence.genruntimeconfig.cache
-C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Persistence\obj\Debug\net6.0\refint\eTrade.Persistence.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\eTrade.Persistence\obj\Debug\net6.0\ref\eTrade.Persistence.dll
