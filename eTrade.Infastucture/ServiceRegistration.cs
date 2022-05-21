@@ -3,6 +3,7 @@ using eTrade.Infastucture.Enums;
 using eTrade.Infastucture.Services;
 using eTrade.Infastucture.Services.Storage;
 using eTrade.Infastucture.Services.Storage.Local;
+using eTrade.Infastucture.Services.Storage.Local.Azure;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace eTrade.Infastucture
         {
             serviceCollection.AddScoped<IStorageService, StorageService>();
         }
-        public static void AddStorage<T>(this IServiceCollection serviceCollection) where T : class, IStorage
+        public static void AddStorage<T>(this IServiceCollection serviceCollection) where T : Storage, IStorage
         {
             serviceCollection.AddScoped<IStorage, T>();
         }
@@ -30,7 +31,7 @@ namespace eTrade.Infastucture
                     serviceCollection.AddScoped<IStorage, LocalStorage>();
                     break;
                 case StorageType.Azure:
-
+                    serviceCollection.AddScoped<IStorage, AzureStorage>();
                     break;
                 case StorageType.AWS:
 

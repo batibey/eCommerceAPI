@@ -3,7 +3,6 @@ C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Deb
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\eTradeAPI.API.AssemblyInfoInputs.cache
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\eTradeAPI.API.AssemblyInfo.cs
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\eTradeAPI.API.csproj.CoreCompileInputs.cache
-C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\eTradeAPI.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\eTradeAPI.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\appsettings.json
@@ -46,3 +45,10 @@ C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Deb
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\eTradeAPI.API.pdb
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\eTradeAPI.API.genruntimeconfig.cache
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\ref\eTradeAPI.API.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Azure.Storage.Common.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\System.IO.Hashing.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\eTradeAPI.API.MvcApplicationPartsAssemblyInfo.cs
