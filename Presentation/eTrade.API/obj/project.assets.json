@@ -1738,8 +1738,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://nuget.tourvisio.com/nuget": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://santsg-371035114628.d.codeartifact.eu-west-1.amazonaws.com/nuget/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {

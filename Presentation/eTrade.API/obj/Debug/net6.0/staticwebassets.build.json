@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/TH9BDSsRxBpEYxz/9NSKCm84S0/bmCWl7faHbbybv8=",
+  "Hash": "3/+hrzzq085DHQhdcrloB4nXMWN4/vRT73QmbLhOVgs=",
   "Source": "eTradeAPI.API",
   "BasePath": "_content/eTradeAPI.API",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\photo-images\\someeHost.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Presentation\\eTrade.API\\wwwroot\\photo-images\\wallpaper.jpg",
+      "SourceId": "eTradeAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Presentation\\eTrade.API\\wwwroot\\",
+      "BasePath": "_content/eTradeAPI.API",
+      "RelativePath": "photo-images/wallpaper.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photo-images\\wallpaper.jpg"
     },
     {
       "Identity": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Presentation\\eTrade.API\\wwwroot\\resource\\files\\announcement.jpg",
