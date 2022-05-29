@@ -1,3 +1,4 @@
+using eTrade.Application;
 using eTrade.Application.Validators.Products;
 using eTrade.Infastucture;
 using eTrade.Infastucture.Filters;
@@ -9,6 +10,7 @@ using FluentValidation.AspNetCore;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
+builder.Services.AddApplicationServices();
 //builder.Services.AddStorage<LocalStorage>();
 builder.Services.AddStorage<AzureStorage>();
 

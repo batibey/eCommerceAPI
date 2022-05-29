@@ -1,8 +1,11 @@
 ﻿using eTrade.Application.Abstraction.Storage;
+using eTrade.Application.Features.Commands.CreateProduct;
+using eTrade.Application.Features.Queries.GetAllProduct;
 using eTrade.Application.Repositories;
 using eTrade.Application.RequestParameters;
 using eTrade.Application.ViewModels.Products;
 using eTrade.Domain.Entities;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
@@ -24,7 +27,10 @@ namespace eTradeAPI.API.controller
         readonly IInvoiceFileWriteRepository _invoiceFileWriteRepository;
         readonly IStorageService _storageService;
         readonly IConfiguration configuration;
-        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository, IWebHostEnvironment webHostEnvironment, IFileWriteRepository fileWriteRepository, IFileReadRepository fileReadRepository, IProductImageFileReadRepository productImageFileReadRepository, IProductImageFileWriteRepository productImageFileWriteRepository, IInvoiceFileReadRepository invoiceFileReadRepository, IInvoiceFileWriteRepository invoiceFileWriteRepository, IStorageService storageService, IConfiguration configuration)
+
+        readonly IMediator _mediator;
+
+        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository, IWebHostEnvironment webHostEnvironment, IFileWriteRepository fileWriteRepository, IFileReadRepository fileReadRepository, IProductImageFileReadRepository productImageFileReadRepository, IProductImageFileWriteRepository productImageFileWriteRepository, IInvoiceFileReadRepository invoiceFileReadRepository, IInvoiceFileWriteRepository invoiceFileWriteRepository, IStorageService storageService, IConfiguration configuration, IMediator mediator)
         {
             _productWriteRepository = productWriteRepository;
             _productReadRepository = productReadRepository;
@@ -37,27 +43,14 @@ namespace eTradeAPI.API.controller
             _invoiceFileWriteRepository = invoiceFileWriteRepository;
             _storageService = storageService;
             this.configuration = configuration;
+            _mediator = mediator;
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get([FromQuery] Pagination pagination)
+        public async Task<IActionResult> Get([FromQuery] GetAllProductQueryRequest getAllProductQueryRequest)
         {
-            var totalCount = _productReadRepository.GetAll(false).Count();
-            var products = _productReadRepository.GetAll(false).Skip(pagination.Page * pagination.Size).Take(pagination.Size).Select(p => new
-            {
-                p.Id,
-                p.Name,
-                p.Stock,
-                p.Price,
-                p.CreatedDate,
-                p.UpdatedDate
-            }).ToList();
-
-            return Ok(new
-            {
-                totalCount,
-                products
-            });
+            GetAllProductQueryResponse response = await _mediator.Send(getAllProductQueryRequest);
+            return Ok(response);
         }
 
         [HttpGet("{id}")]
@@ -67,16 +60,9 @@ namespace eTradeAPI.API.controller
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(VM_Create_Product model)
+        public async Task<IActionResult> Post(CreateProductCommandRequest createProductCommandRequest)
         {
-
-            await _productWriteRepository.AddAsync(new()
-            {
-                Name = model.Name,
-                Price = model.Price,
-                Stock = model.Stock
-            });
-            await _productWriteRepository.SaveAsync();
+            CreateProductCommandResponse response = await _mediator.Send(createProductCommandRequest);
             return StatusCode((int)HttpStatusCode.Created);
         }
 
@@ -104,8 +90,8 @@ namespace eTradeAPI.API.controller
             List<(string fileName, string pathOrContainerName)> result = await _storageService.UploadAsync("photo-images", Request.Form.Files);
 
 
-
             Product product = await _productReadRepository.GetByIdAsync(id);
+
             //foreach (var r in result)
             //{
             //    product.ProductImageFiles.Add(new()
@@ -116,7 +102,6 @@ namespace eTradeAPI.API.controller
             //        Products = new List<Product>() { product }
             //    });
             //}
-
 
             await _productImageFileWriteRepository.AddRangeAsync(result.Select(r => new ProductImageFile
             {
@@ -134,23 +119,24 @@ namespace eTradeAPI.API.controller
         [HttpGet("[action]/{id}")]
         public async Task<IActionResult> GetProductImages(string id)
         {
-            Product? product = await _productReadRepository.Table.Include(p => p.ProductImageFiles).FirstOrDefaultAsync(p => p.Id == Guid.Parse(id));
-            //if (product != null)
-                return Ok(product.ProductImageFiles.Select(p => new
-                {
-                    Path = $"{configuration["BaseStorageUrl"]}/{p.Path}",
-                    p.FileName,
-                    p.Id
-                }));
+            Product? product = await _productReadRepository.Table.Include(p => p.ProductImageFiles)
+                    .FirstOrDefaultAsync(p => p.Id == Guid.Parse(id));
+            return Ok(product.ProductImageFiles.Select(p => new
+            {
+                Path = $"{configuration["BaseStorageUrl"]}/{p.Path}",
+                p.FileName,
+                p.Id
+            }));
         }
-
         [HttpDelete("[action]/{id}")]
         public async Task<IActionResult> DeleteProductImage(string id, string imageId)
         {
-            Product? product = await _productReadRepository.Table.Include(p => p.ProductImageFiles).FirstOrDefaultAsync(p => p.Id == Guid.Parse(id));
+            Product? product = await _productReadRepository.Table.Include(p => p.ProductImageFiles)
+                  .FirstOrDefaultAsync(p => p.Id == Guid.Parse(id));
+
             ProductImageFile productImageFile = product.ProductImageFiles.FirstOrDefault(p => p.Id == Guid.Parse(imageId));
             product.ProductImageFiles.Remove(productImageFile);
-            await _productImageFileWriteRepository.SaveAsync();
+            await _productWriteRepository.SaveAsync();
             return Ok();
         }
 

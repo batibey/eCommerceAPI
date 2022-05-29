@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "4xC9e/Skxlp8CHKFtYJBRUcgYzaATKITvVI/Gsqphuq5D4VbG78AsK2iRUjeoXZOvMWIbLYjh4byi/Fuu2dV4Q==",
+  "dgSpecHash": "S9Ei6vc7FXG9B0xX9dbQeggISwyjiTk4XqJ3p0DAFJlbkUNTmcvfAq2D5ftmq/RKeOr7TSc+Ch+1mzKTkqDNKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Core\\eTrade.Application\\eTrade.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mustafabati\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
+    "C:\\Users\\mustafabati\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\mustafabati\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\mustafabati\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.4\\microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.4\\microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.4\\microsoft.entityframeworkcore.analyzers.6.0.4.nupkg.sha512",
