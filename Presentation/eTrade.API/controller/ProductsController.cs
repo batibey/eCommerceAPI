@@ -12,6 +12,7 @@ using eTrade.Application.RequestParameters;
 using eTrade.Application.ViewModels.Products;
 using eTrade.Domain.Entities;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
@@ -20,6 +21,7 @@ namespace eTradeAPI.API.controller
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = "Admin")]
     public class ProductsController : ControllerBase
     {
         readonly private IProductWriteRepository _productWriteRepository;

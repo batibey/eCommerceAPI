@@ -1,9 +1,11 @@
 ﻿using eTrade.Application.Abstraction.Storage;
+using eTrade.Application.Abstraction.Token;
 using eTrade.Infastucture.Enums;
 using eTrade.Infastucture.Services;
 using eTrade.Infastucture.Services.Storage;
 using eTrade.Infastucture.Services.Storage.Local;
 using eTrade.Infastucture.Services.Storage.Local.Azure;
+using eTrade.Infastucture.Services.Token;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -18,6 +20,7 @@ namespace eTrade.Infastucture
         public static void AddInfrastructureServices(this IServiceCollection serviceCollection)
         {
             serviceCollection.AddScoped<IStorageService, StorageService>();
+            serviceCollection.AddScoped<ITokenHandler, TokenHandler>();
         }
         public static void AddStorage<T>(this IServiceCollection serviceCollection) where T : Storage, IStorage
         {
