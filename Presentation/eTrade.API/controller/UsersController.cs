@@ -11,12 +11,10 @@ namespace eTradeAPI.API.controller
     public class UsersController : ControllerBase
     {
         readonly IMediator _mediator;
-
         public UsersController(IMediator mediator)
         {
             _mediator = mediator;
         }
-
         [HttpPost]
         public async Task<IActionResult> CreateUser(CreateUserCommandRequest createUserCommandRequest)
         {
