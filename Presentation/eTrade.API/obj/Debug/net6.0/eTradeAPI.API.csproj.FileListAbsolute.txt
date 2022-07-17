@@ -16,6 +16,7 @@ C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Deb
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\MediatR.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\MediatR.Contracts.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -28,12 +29,18 @@ C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Deb
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Npgsql.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\System.IO.Hashing.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\System.Memory.Data.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\System.Security.Permissions.dll
@@ -61,10 +68,3 @@ C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Deb
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\eTradeAPI.API.pdb
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\eTradeAPI.API.genruntimeconfig.cache
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\ref\eTradeAPI.API.dll
-C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

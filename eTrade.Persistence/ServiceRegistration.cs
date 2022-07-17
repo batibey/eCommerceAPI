@@ -9,6 +9,9 @@ using Microsoft.EntityFrameworkCore;
 using eTrade.Application.Repositories;
 using eTrade.Persistence.Repositories;
 using eTrade.Domain.Entities.Identity;
+using eTrade.Application.Abstraction.Services;
+using eTrade.Persistence.Services;
+using eTrade.Application.Abstraction.Services.Authentication;
 
 namespace eTrade.Persistence
 {
@@ -39,6 +42,11 @@ namespace eTrade.Persistence
             services.AddScoped<IProductImageFileWriteRepository, ProductImageFileWriteRepository>();
             services.AddScoped<IInvoiceFileReadRepository, InvoiceFileReadRepository>();
             services.AddScoped<IInvoiceFileWriteRepository, InvoiceFileWriteRepository>();
+
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IInternalAuthentication, AuthService>();
+            services.AddScoped<IExternalAuthentication, AuthService>();
         }
     }
 }
