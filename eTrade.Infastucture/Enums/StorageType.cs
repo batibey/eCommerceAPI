@@ -10,7 +10,6 @@ namespace eTrade.Infastucture.Enums
     {
         Local,
         Azure,
-        AWS,
-        Cloudera
+        AWS
     }
 }
