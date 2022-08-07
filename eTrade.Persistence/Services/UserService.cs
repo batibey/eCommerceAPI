@@ -1,5 +1,6 @@
 ﻿using eTrade.Application.Abstraction.Services;
 using eTrade.Application.DTOs.User;
+using eTrade.Application.Exceptions;
 using eTrade.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
 using System;
@@ -43,6 +44,17 @@ namespace eTrade.Persistence.Services
             
         }
 
-
+        public async Task UpdateRefreshToken(string refreshToken, AppUser user, DateTime accessTokenDate, int addOnAccessTokenDate)
+        {
+            
+            if(user != null)
+            {
+                user.RefreshToken = refreshToken;
+                user.RefreshTokenEndDate = accessTokenDate.AddMinutes(addOnAccessTokenDate);
+                await _userManager.UpdateAsync(user);
+            }
+            else
+                throw new NotFoundUserException();
+        }
     }
 }

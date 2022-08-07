@@ -9,5 +9,6 @@ namespace eTrade.Application.Abstraction.Services.Authentication
     public interface IInternalAuthentication
     {
         Task<DTOs.Token> LoginAsync(string usernameOrEmail, string password, int accesTokenLifeTime);
+        Task<DTOs.Token> RefreshTokenLoginAsync(string refreshToken);
     }
 }

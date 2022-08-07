@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using eTrade.Persistence.Contexts;
@@ -11,9 +12,10 @@ using eTrade.Persistence.Contexts;
 namespace eTrade.Persistence.Migrations
 {
     [DbContext(typeof(eTradeAPIDBContext))]
-    partial class eTradeAPIDBContextModelSnapshot : ModelSnapshot
+    [Migration("20220806155930_mig_9")]
+    partial class mig_9
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
