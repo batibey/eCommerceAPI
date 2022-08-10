@@ -1,177 +1,16 @@
 ﻿++Solution 'eTradeAPI' ‎(5 of 5 projects)
 i:{00000000-0000-0000-0000-000000000000}:eTradeAPI.sln
-++Presentation
-i:{00000000-0000-0000-0000-000000000000}:Presentation
-++eTradeAPI.API
-i:{ea3cc135-f53e-44b0-9065-158221613eca}:eTradeAPI.API
-++Connected Services 
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1035
-++Dependencies
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1034
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>719
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:>716
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:>718
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>717
-++Properties
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\properties\
-++wwwroot
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\
-++controller
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\controller\
-++ProductsController.cs
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\controller\productscontroller.cs
-++UsersController.cs
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\controller\userscontroller.cs
-++appsettings.json
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\appsettings.json
-++Program.cs
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\program.cs
-++No service dependencies discovered
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1036
-++Analyzers
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:analyzers
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:analyzers
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:analyzers
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:analyzers
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:analyzers
-++Frameworks
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:frameworks
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:frameworks
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:frameworks
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:frameworks
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:frameworks
-++Packages
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:packages
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:packages
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:packages
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:packages
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:packages
-++Projects
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:projects
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:projects
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:projects
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:projects
-++launchSettings.json
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\properties\launchsettings.json
-++photo-images
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\photo-images\
-++resource
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\
-++appsettings.Development.json
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\appsettings.development.json
-++Microsoft.AspNetCore.Analyzers
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
-++Microsoft.AspNetCore.App.Analyzers
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-++Microsoft.AspNetCore.App.CodeFixes
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-++Microsoft.AspNetCore.Components.Analyzers
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
-++Microsoft.AspNetCore.Mvc.Analyzers
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
-++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
-++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-++Microsoft.CodeAnalysis.NetAnalyzers
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-++Microsoft.EntityFrameworkCore.Analyzers
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-++Microsoft.Extensions.Logging.Generators
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-++Microsoft.NET.Sdk.Razor.SourceGenerators
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
-++System.Text.Json.SourceGeneration
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-++Microsoft.AspNetCore.App
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\microsoft.aspnetcore.app
-++Microsoft.NETCore.App
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\microsoft.netcore.app
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\microsoft.netcore.app
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\microsoft.netcore.app
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\microsoft.netcore.app
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\microsoft.netcore.app
-++Microsoft.EntityFrameworkCore.Design (6.0.4)
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1073
-++Swashbuckle.AspNetCore (6.3.0)
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1074
-++eTrade.Application
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\etrade.application.csproj
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\etrade.application.csproj
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\bin\debug\net6.0\etrade.application.dll
-i:{8d0328d9-3817-4c6a-b4a7-f526abd92eb2}:eTrade.Application
-++eTrade.Infastucture
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\etrade.infastucture.csproj
-i:{c6e93077-7db6-4935-a35a-44f2c3b63c23}:eTrade.Infastucture
-++eTrade.Persistence
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\etrade.persistence.csproj
-i:{c6e93077-7db6-4935-a35a-44f2c3b63c23}:eTrade.Persistence
-++gitBash2.PNG
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\photo-images\gitbash2.png
-++hostDomain.PNG
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\photo-images\hostdomain.png
-++someeHost.jpg
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\photo-images\someehost.jpg
-++wallpaper.jpg
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\photo-images\wallpaper.jpg
-++files
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\
-++announcement.jpg
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\announcement.jpg
-++Dynamic-ads.jpg
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\dynamic-ads.jpg
-++Ekran Alıntısı.PNG
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\ekran alıntısı.png
-++excursion.jpg
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\excursion.jpg
-++flight-ads.jpg
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\flight-ads.jpg
-++holiday-package.jpg
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\holiday-package.jpg
-++hotel-ads.jpg
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\hotel-ads.jpg
-++insurance.jpg
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\insurance.jpg
-++login.jpg
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\login.jpg
-++rentacar.jpg
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\rentacar.jpg
-++staj.jpg
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\staj.jpg
-++tour-ads.jpg
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\tour-ads.jpg
-++transfer.jpg
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\transfer.jpg
-++visa.jpg
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\visa.jpg
 ++Infastructure
 i:{00000000-0000-0000-0000-000000000000}:Infastructure
+++eTrade.Persistence
+i:{c6e93077-7db6-4935-a35a-44f2c3b63c23}:eTrade.Persistence
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\bin\debug\net6.0\etrade.persistence.dll
+++Dependencies
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>767
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:>568
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1098
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:>569
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>570
 ++Contexts
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\contexts\
 ++Migrations
@@ -179,12 +18,39 @@ i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\
 ++Repositories
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\repositories\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\repositories\
+++Services
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\services\
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\services\
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\
 ++Configuration.cs
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\configuration.cs
 ++ServiceRegistration.cs
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\serviceregistration.cs
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\serviceregistration.cs
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\serviceregistration.cs
+++Analyzers
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:analyzers
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:analyzers
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:analyzers
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:analyzers
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:analyzers
+++Frameworks
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:frameworks
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:frameworks
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:frameworks
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:frameworks
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:frameworks
+++Packages
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:packages
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:packages
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:packages
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:packages
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:packages
+++Projects
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:projects
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:projects
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:projects
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:projects
 ++eTradeAPIDBContext.cs
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\contexts\etradeapidbcontext.cs
 ++20220416111211_mig_1.cs
@@ -226,22 +92,77 @@ i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\repositories\readrepository.cs
 ++WriteRepository.cs
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\repositories\writerepository.cs
+++AuthService.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\services\authservice.cs
+++UserService.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\services\userservice.cs
+++Microsoft.AspNetCore.App.Analyzers
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\microsoft.netcore.app
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\microsoft.netcore.app
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\microsoft.netcore.app
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\microsoft.netcore.app
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\microsoft.netcore.app
 ++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.4)
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1056
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:>1047
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1161
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:>1108
 ++Microsoft.EntityFrameworkCore (6.0.4)
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1054
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1091
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1156
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1126
 ++Microsoft.EntityFrameworkCore.Tools (6.0.4)
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1060
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1166
 ++Microsoft.Extensions.Configuration (6.0.1)
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1059
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1165
 ++Microsoft.Extensions.Configuration.Json (6.0.0)
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1057
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1163
 ++Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1055
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1158
 ++Npgsql.EntityFrameworkCore.PostgreSQL (6.0.3)
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1058
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1164
+++eTrade.Application
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\bin\debug\net6.0\etrade.application.dll
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\bin\debug\net6.0\etrade.application.dll
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\bin\debug\net6.0\etrade.application.dll
+i:{8d0328d9-3817-4c6a-b4a7-f526abd92eb2}:eTrade.Application
 ++20220416111211_mig_1.Designer.cs
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220416111211_mig_1.designer.cs
 ++20220519193138_mig_2.Designer.cs
@@ -280,14 +201,15 @@ i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\repositories\productimagefiles\productimagefilereadrepository.cs
 ++ProductImageFileWriteRepository.cs
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\repositories\productimagefiles\productimagefilewriterepository.cs
+++eTrade.Infastucture
+i:{c6e93077-7db6-4935-a35a-44f2c3b63c23}:eTrade.Infastucture
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\bin\debug\net6.0\etrade.infastucture.dll
 ++Enums
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\enums\
 ++Filters
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\filters\
 ++Operations
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\operations\
-++Services
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\services\
 ++StorageType.cs
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\enums\storagetype.cs
 ++ValidationFilter.cs
@@ -297,10 +219,16 @@ i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\
 ++Storage
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\services\storage\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\storage\
+++Token
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\services\token\
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\token\
 ++FileService.cs
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\services\fileservice.cs
 ++Azure.Storage.Blobs (12.12.0)
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:>1110
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:>1157
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.5)
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:>1159
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1188
 ++Azure
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\services\storage\azure\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\storage\azure\
@@ -311,10 +239,98 @@ i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\services\storage\storage.cs
 ++StorageService.cs
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\services\storage\storageservice.cs
+++TokenHandler.cs
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\services\token\tokenhandler.cs
 ++AzureStorage.cs
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\services\storage\azure\azurestorage.cs
 ++LocalStorage.cs
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\services\storage\local\localstorage.cs
+++Presentation
+i:{00000000-0000-0000-0000-000000000000}:Presentation
+++eTradeAPI.API
+i:{ea3cc135-f53e-44b0-9065-158221613eca}:eTradeAPI.API
+++Connected Services 
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1099
+++Properties
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\properties\
+++wwwroot
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\
+++controller
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\controller\
+++appsettings.json
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\appsettings.json
+++Program.cs
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\program.cs
+++No service dependencies discovered
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1100
+++launchSettings.json
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\properties\launchsettings.json
+++photo-images
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\photo-images\
+++resource
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\
+++AuthController.cs
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\controller\authcontroller.cs
+++ProductsController.cs
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\controller\productscontroller.cs
+++UsersController.cs
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\controller\userscontroller.cs
+++appsettings.Development.json
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\microsoft.aspnetcore.app
+++Microsoft.EntityFrameworkCore.Design (6.0.4)
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1186
+++Swashbuckle.AspNetCore (6.3.0)
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1187
+++gitBash2.PNG
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\photo-images\gitbash2.png
+++hostDomain.PNG
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\photo-images\hostdomain.png
+++someeHost.jpg
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\photo-images\someehost.jpg
+++wallpaper.jpg
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\photo-images\wallpaper.jpg
+++files
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\
+++announcement.jpg
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\announcement.jpg
+++Dynamic-ads.jpg
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\dynamic-ads.jpg
+++Ekran Alıntısı.PNG
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\ekran alıntısı.png
+++excursion.jpg
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\excursion.jpg
+++flight-ads.jpg
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\flight-ads.jpg
+++holiday-package.jpg
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\holiday-package.jpg
+++hotel-ads.jpg
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\hotel-ads.jpg
+++insurance.jpg
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\insurance.jpg
+++login.jpg
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\login.jpg
+++rentacar.jpg
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\rentacar.jpg
+++staj.jpg
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\staj.jpg
+++tour-ads.jpg
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\tour-ads.jpg
+++transfer.jpg
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\transfer.jpg
+++visa.jpg
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\wwwroot\resource\files\visa.jpg
 ++Core
 i:{00000000-0000-0000-0000-000000000000}:Core
 ++eTrade.Domain
@@ -326,10 +342,6 @@ i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\
 i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\entities\common\
 ++Identity
 i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\entities\identity\
-++AppRole.cs
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\entities\identity\approle.cs
-++AppUser.cs
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\entities\identity\appuser.cs
 ++Customer.cs
 i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\entities\customer.cs
 ++File.cs
@@ -342,16 +354,30 @@ i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\
 i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\entities\product.cs
 ++ProductImageFile.cs
 i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\entities\productimagefile.cs
+++Microsoft.AspNetCore.Identity (2.2.0)
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:>1107
 ++BaseEntity.cs
 i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\entities\common\baseentity.cs
-++Microsoft.AspNetCore.Identity (2.2.0)
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:>1046
+++AppRole.cs
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\entities\identity\approle.cs
+++AppUser.cs
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\entities\identity\appuser.cs
 ++Abstraction
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\
+++Authentication
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\authentication\
+++IExternalAuthentication.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\authentication\iexternalauthentication.cs
+++IInternalAuthentication.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\authentication\iinternalauthentication.cs
+++IAuthService.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\iauthservice.cs
+++IUserService.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\iuserservice.cs
+++DTOs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\dtos\
 ++Exceptions
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\exceptions\
-++UserCreateFailedException.cs
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\exceptions\usercreatefailedexception.cs
 ++Features
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\
 ++RequestParameters
@@ -360,6 +386,22 @@ i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\validators\
 ++ViewModels
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\viewmodels\
+++IStorage.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\storage\istorage.cs
+++IStorageService.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\storage\istorageservice.cs
+++ITokenHandler.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\token\itokenhandler.cs
+++User
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\dtos\user\
+++Token.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\dtos\token.cs
+++AuthencationErrorException.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\exceptions\authencationerrorexception.cs
+++NotFoundUserException.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\exceptions\notfounduserexception.cs
+++UserCreateFailedException.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\exceptions\usercreatefailedexception.cs
 ++Commands
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\
 ++Queries
@@ -380,21 +422,25 @@ i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\validators\products\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\viewmodels\products\
 ++FluentValidation (10.4.0)
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1094
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1129
 ++FluentValidation.AspNetCore (10.4.0)
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1092
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1127
 ++FluentValidation.DependencyInjectionExtensions (10.4.0)
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1090
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1125
 ++MediatR (10.0.1)
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1093
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1128
 ++MediatR.Extensions.Microsoft.DependencyInjection (10.0.1)
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1096
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1131
 ++Microsoft.AspNetCore.Http (2.2.2)
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1095
-++IStorage.cs
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\storage\istorage.cs
-++IStorageService.cs
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\storage\istorageservice.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1130
+++IAzureStorage.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\storage\azure\iazurestorage.cs
+++ILocalStorage.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\storage\local\ilocalstorage.cs
+++CreateUser.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\dtos\user\createuser.cs
+++CreateUserResponse.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\dtos\user\createuserresponse.cs
 ++AppUser
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\appuser\
 ++ICustomerReadRepository.cs
@@ -427,12 +473,10 @@ i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\viewmodels\products\vm_create_product.cs
 ++VM_Update_Product.cs
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\viewmodels\products\vm_update_product.cs
-++IAzureStorage.cs
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\storage\azure\iazurestorage.cs
-++ILocalStorage.cs
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\storage\local\ilocalstorage.cs
 ++CreateUser
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\appuser\createuser\
+++LoginUser
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\appuser\loginuser\
 ++CreateProduct
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\product\createproduct\
 ++RemoveProduct
@@ -455,6 +499,12 @@ i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\appuser\createuser\createusercommandrequest.cs
 ++CreateUserCommandResponse.cs
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\appuser\createuser\createusercommandresponse.cs
+++LoginUserCommandHandler.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\appuser\loginuser\loginusercommandhandler.cs
+++LoginUserCommandRequest.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\appuser\loginuser\loginusercommandrequest.cs
+++LoginUserCommandResponse.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\appuser\loginuser\loginusercommandresponse.cs
 ++CreateProductCommandHandler.cs
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\product\createproduct\createproductcommandhandler.cs
 ++CreateProductCommandRequest.cs
@@ -503,3 +553,20 @@ i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\queries\productimagefile\getproductimages\getproductimagesqueryrequest.cs
 ++GetProductImagesQueryResponse.cs
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\queries\productimagefile\getproductimages\getproductimagesqueryresponse.cs
+++20220806144120_mig_8.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220806144120_mig_8.cs
+++20220806144120_mig_8.Designer.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220806144120_mig_8.designer.cs
+++20220806155930_mig_9.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220806155930_mig_9.cs
+++20220806155930_mig_9.Designer.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220806155930_mig_9.designer.cs
+++NewFolder
+++RefreshTokenLogin
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\appuser\refreshtokenlogin\
+++RefreshTokenLoginCommandRequest.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\appuser\refreshtokenlogin\refreshtokenlogincommandrequest.cs
+++RefreshTokenLoginCommandResponse.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\appuser\refreshtokenlogin\refreshtokenlogincommandresponse.cs
+++RefreshTokenLoginCommandHandler.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\appuser\refreshtokenlogin\refreshtokenlogincommandhandler.cs
