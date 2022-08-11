@@ -68,3 +68,16 @@ C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Deb
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\eTradeAPI.API.pdb
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\eTradeAPI.API.genruntimeconfig.cache
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\obj\Debug\net6.0\ref\eTradeAPI.API.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Serilog.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Serilog.Sinks.PostgreSQL.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Serilog.Sinks.Seq.dll

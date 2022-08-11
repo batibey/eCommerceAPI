@@ -1,0 +1,288 @@
+2022-08-10 21:28:26.282 +03:00 [INF] User profile is available. Using 'C:\Users\mustafabati\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-10 21:28:26.771 +03:00 [INF] Now listening on: https://localhost:7122
+2022-08-10 21:28:26.775 +03:00 [INF] Now listening on: http://localhost:5122
+2022-08-10 21:28:26.780 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-10 21:28:26.781 +03:00 [INF] Hosting environment: Development
+2022-08-10 21:28:26.783 +03:00 [INF] Content root path: C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\
+2022-08-10 22:49:59.037 +03:00 [INF] User profile is available. Using 'C:\Users\mustafabati\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-10 22:49:59.444 +03:00 [INF] Now listening on: https://localhost:7122
+2022-08-10 22:49:59.446 +03:00 [INF] Now listening on: http://localhost:5122
+2022-08-10 22:49:59.450 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-10 22:49:59.453 +03:00 [INF] Hosting environment: Development
+2022-08-10 22:49:59.467 +03:00 [INF] Content root path: C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\
+2022-08-10 22:50:29.739 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/auth/login - -
+2022-08-10 22:50:29.826 +03:00 [INF] CORS policy execution successful.
+2022-08-10 22:50:29.844 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/auth/login - - - 204 - - 114.2720ms
+2022-08-10 22:50:29.852 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7122/api/auth/login application/json 45
+2022-08-10 22:50:29.856 +03:00 [INF] CORS policy execution successful.
+2022-08-10 22:50:29.882 +03:00 [INF] Executing endpoint 'eTradeAPI.API.controller.AuthController.Login (eTradeAPI.API)'
+2022-08-10 22:50:29.916 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(eTrade.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandRequest) on controller eTradeAPI.API.controller.AuthController (eTradeAPI.API).
+2022-08-10 22:50:32.195 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'eTradeAPIDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2022-08-10 22:50:32.894 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2022-08-10 22:50:33.716 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2022-08-10 22:50:33.924 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2022-08-10 22:50:34.019 +03:00 [INF] Executing OkObjectResult, writing value of type 'eTrade.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandResponse+LoginUserSuccessCommandResponse'.
+2022-08-10 22:50:34.041 +03:00 [INF] Executed action eTradeAPI.API.controller.AuthController.Login (eTradeAPI.API) in 4116.6223ms
+2022-08-10 22:50:34.043 +03:00 [INF] Executed endpoint 'eTradeAPI.API.controller.AuthController.Login (eTradeAPI.API)'
+2022-08-10 22:50:34.067 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7122/api/auth/login application/json 45 - 200 - application/json;+charset=utf-8 4214.8413ms
+2022-08-11 20:44:01.719 +03:00 [INF] User profile is available. Using 'C:\Users\mustafabati\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 20:44:02.563 +03:00 [INF] Now listening on: https://localhost:7122
+2022-08-11 20:44:02.565 +03:00 [INF] Now listening on: http://localhost:5122
+2022-08-11 20:44:02.569 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 20:44:02.570 +03:00 [INF] Hosting environment: Development
+2022-08-11 20:44:02.571 +03:00 [INF] Content root path: C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\
+2022-08-11 21:27:59.088 +03:00 [INF] User profile is available. Using 'C:\Users\mustafabati\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 21:27:59.405 +03:00 [INF] Now listening on: https://localhost:7122
+2022-08-11 21:27:59.407 +03:00 [INF] Now listening on: http://localhost:5122
+2022-08-11 21:27:59.411 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 21:27:59.414 +03:00 [INF] Hosting environment: Development
+2022-08-11 21:27:59.420 +03:00 [INF] Content root path: C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\
+2022-08-11 21:47:03.356 +03:00 [INF] User profile is available. Using 'C:\Users\mustafabati\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 21:47:03.738 +03:00 [INF] Now listening on: https://localhost:7122
+2022-08-11 21:47:03.740 +03:00 [INF] Now listening on: http://localhost:5122
+2022-08-11 21:47:03.745 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 21:47:03.746 +03:00 [INF] Hosting environment: Development
+2022-08-11 21:47:03.746 +03:00 [INF] Content root path: C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\
+2022-08-11 21:47:25.243 +03:00 [INF] User profile is available. Using 'C:\Users\mustafabati\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-11 21:47:25.587 +03:00 [INF] Now listening on: https://localhost:7122
+2022-08-11 21:47:25.589 +03:00 [INF] Now listening on: http://localhost:5122
+2022-08-11 21:47:25.595 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-11 21:47:25.596 +03:00 [INF] Hosting environment: Development
+2022-08-11 21:47:25.598 +03:00 [INF] Content root path: C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\
+2022-08-11 21:47:29.123 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/auth/login - -
+2022-08-11 21:47:29.204 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/login
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-11 21:47:29.212 +03:00 [INF] CORS policy execution successful.
+2022-08-11 21:47:29.217 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-11 21:47:29.228 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/auth/login - - - 204 - - 109.7288ms
+2022-08-11 21:47:29.234 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7122/api/auth/login application/json 45
+2022-08-11 21:47:29.242 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/login
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 45
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-11 21:47:29.248 +03:00 [INF] CORS policy execution successful.
+2022-08-11 21:47:29.282 +03:00 [INF] Executing endpoint 'eTradeAPI.API.controller.AuthController.Login (eTradeAPI.API)'
+2022-08-11 21:47:29.320 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(eTrade.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandRequest) on controller eTradeAPI.API.controller.AuthController (eTradeAPI.API).
+2022-08-11 21:47:29.374 +03:00 [INF] RequestBody: {"usernameOrEmail":"test1","password":"1234"}
+2022-08-11 21:47:31.359 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'eTradeAPIDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2022-08-11 21:47:31.935 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2022-08-11 21:47:32.694 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2022-08-11 21:47:32.986 +03:00 [INF] Executed DbCommand (100ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2022-08-11 21:47:33.052 +03:00 [INF] Executing OkObjectResult, writing value of type 'eTrade.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandResponse+LoginUserSuccessCommandResponse'.
+2022-08-11 21:47:33.065 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-11 21:47:33.077 +03:00 [INF] Executed action eTradeAPI.API.controller.AuthController.Login (eTradeAPI.API) in 3748.5442ms
+2022-08-11 21:47:33.080 +03:00 [INF] Executed endpoint 'eTradeAPI.API.controller.AuthController.Login (eTradeAPI.API)'
+2022-08-11 21:47:33.084 +03:00 [INF] ResponseBody: {"token":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdDEiLCJuYmYiOjE2NjAyNDM2NTIsImV4cCI6MTY2MDI0NDU1MiwiaXNzIjoid3d3Lm15YXBpLmNvbSIsImF1ZCI6Ind3dy5iYXRpLmNvbSJ9.znb81mtuXtnQbUB-L8SRRqkK3lVBUwgvigQf4_h_Z74","expiration":"2022-08-11T19:02:32.3972794Z","refreshToken":"fus+MGvXaBDWMJsK6/hJaOFDAkH9yA0OkgXQ7e+e5ds="}}
+2022-08-11 21:47:33.101 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7122/api/auth/login application/json 45 - 200 - application/json;+charset=utf-8 3867.2313ms
+2022-08-11 21:48:05.058 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/products?page=0&size=5 - -
+2022-08-11 21:48:05.061 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-11 21:48:05.067 +03:00 [INF] CORS policy execution successful.
+2022-08-11 21:48:05.068 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-11 21:48:05.071 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/products?page=0&size=5 - - - 204 - - 13.1146ms
+2022-08-11 21:48:05.081 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7122/api/products?page=0&size=5 - -
+2022-08-11 21:48:05.096 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-11 21:48:05.100 +03:00 [INF] CORS policy execution successful.
+2022-08-11 21:48:05.361 +03:00 [INF] Executing endpoint 'eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API)'
+2022-08-11 21:48:05.370 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(eTrade.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller eTradeAPI.API.controller.ProductsController (eTradeAPI.API).
+2022-08-11 21:48:05.393 +03:00 [INF] Get All Products
+2022-08-11 21:48:05.439 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'eTradeAPIDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2022-08-11 21:48:05.601 +03:00 [INF] Executed DbCommand (106ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2022-08-11 21:48:05.619 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-08-11 21:48:05.623 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-08-11 21:48:05.663 +03:00 [INF] Executed DbCommand (22ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2022-08-11 21:48:05.680 +03:00 [INF] Executing OkObjectResult, writing value of type 'eTrade.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2022-08-11 21:48:05.697 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-11 21:48:05.699 +03:00 [INF] Executed action eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API) in 325.7677ms
+2022-08-11 21:48:05.702 +03:00 [INF] Executed endpoint 'eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API)'
+2022-08-11 21:48:05.705 +03:00 [INF] ResponseBody: {"totalCount":15,"products":[{"id":"c4ed3ddf-5bce-4069-9a1c-e960372e1db7","name":"Kalem","stock":100,"price":15,"createdDate":"2022-04-24T07:21:24.315664Z","updatedDate":"0001-01-01T00:00:00"},{"id":"be12bfba-814f-4141-b085-042f5dbefb4d","name":"Defter","stock":100,"price":5,"createdDate":"2022-04-24T07:34:38.938975Z","updatedDate":"0001-01-01T00:00:00"},{"id":"ddbc81c2-0f1f-4456-b8ab-12510893d62d","name":"Silgi","stock":50,"price":1,"createdDate":"2022-04-24T07:34:38.938968Z","updatedDate":"0001-01-01T00:00:00"},{"id":"f9d9fe0c-0ed9-4f73-941b-fafac7b62d41","name":"Kağıt","stock":1000,"price":5,"createdDate":"2022-04-24T07:34:38.938975Z","updatedDate":"0001-01-01T00:00:00"},{"id":"a4442043-9c1e-4f5e-9cb6-ff1a6604e6c7","name":"ürün 1","stock":1,"price":2,"createdDate":"2022-05-07T19:04:08.492469Z","updatedDate":"0001-01-01T00:00:00"}]}
+2022-08-11 21:48:05.708 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7122/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 627.1376ms
+2022-08-11 21:48:10.357 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/products/getproductimages/c4ed3ddf-5bce-4069-9a1c-e960372e1db7 - -
+2022-08-11 21:48:10.360 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products/getproductimages/c4ed3ddf-5bce-4069-9a1c-e960372e1db7
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-11 21:48:10.364 +03:00 [INF] CORS policy execution successful.
+2022-08-11 21:48:10.366 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-11 21:48:10.369 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/products/getproductimages/c4ed3ddf-5bce-4069-9a1c-e960372e1db7 - - - 204 - - 12.9446ms
+2022-08-11 21:48:10.374 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7122/api/products/getproductimages/c4ed3ddf-5bce-4069-9a1c-e960372e1db7 - -
+2022-08-11 21:48:10.380 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products/getproductimages/c4ed3ddf-5bce-4069-9a1c-e960372e1db7
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-11 21:48:10.385 +03:00 [INF] CORS policy execution successful.
+2022-08-11 21:48:10.389 +03:00 [INF] Executing endpoint 'eTradeAPI.API.controller.ProductsController.GetProductImages (eTradeAPI.API)'
+2022-08-11 21:48:10.400 +03:00 [INF] Route matched with {action = "GetProductImages", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductImages(eTrade.Application.Features.Queries.ProductImageFile.GetProductImages.GetProductImagesQueryRequest) on controller eTradeAPI.API.controller.ProductsController (eTradeAPI.API).
+2022-08-11 21:48:10.420 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'eTradeAPIDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2022-08-11 21:48:10.842 +03:00 [INF] Executed DbCommand (176ms) [Parameters=[@__Parse_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."CreatedDate", t."Name", t."Price", t."Stock", t."UpdatedDate", t0."ProductImageFilesId", t0."ProductsId", t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage"
+FROM (
+    SELECT p."Id", p."CreatedDate", p."Name", p."Price", p."Stock", p."UpdatedDate"
+    FROM "Products" AS p
+    WHERE p."Id" = @__Parse_0
+    LIMIT 1
+) AS t
+LEFT JOIN (
+    SELECT p0."ProductImageFilesId", p0."ProductsId", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."Path", t1."Storage"
+    FROM "ProductProductImageFile" AS p0
+    INNER JOIN (
+        SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage"
+        FROM "Files" AS f
+        WHERE f."Discriminator" = 'ProductImageFile'
+    ) AS t1 ON p0."ProductImageFilesId" = t1."Id"
+) AS t0 ON t."Id" = t0."ProductsId"
+ORDER BY t."Id", t0."ProductImageFilesId", t0."ProductsId"
+2022-08-11 21:48:10.939 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[eTrade.Application.Features.Queries.ProductImageFile.GetProductImages.GetProductImagesQueryResponse, eTrade.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-08-11 21:48:10.943 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-11 21:48:10.945 +03:00 [INF] Executed action eTradeAPI.API.controller.ProductsController.GetProductImages (eTradeAPI.API) in 541.8602ms
+2022-08-11 21:48:10.947 +03:00 [INF] Executed endpoint 'eTradeAPI.API.controller.ProductsController.GetProductImages (eTradeAPI.API)'
+2022-08-11 21:48:10.950 +03:00 [INF] ResponseBody: [{"path":"https://ecommercebati.blob.core.windows.net/photo-images/24323432432.PNG","id":"24f0bd3b-9ec5-4db7-8ed8-e756267bfc35","fileName":"24323432432.PNG"}]
+2022-08-11 21:48:10.954 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7122/api/products/getproductimages/c4ed3ddf-5bce-4069-9a1c-e960372e1db7 - - - 200 - application/json;+charset=utf-8 580.1819ms
