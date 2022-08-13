@@ -6,6 +6,7 @@ using eTrade.Infastucture.Services.Storage.Local;
 using eTrade.Infastucture.Services.Storage.Local.Azure;
 using eTrade.Persistence;
 using eTradeAPI.API.Configurations.ColumnWriters;
+using eTradeAPI.API.Extensions;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.HttpLogging;
@@ -97,7 +98,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
+app.ConfigureExceptionHandler<Program>(app.Services.GetRequiredService<ILogger<Program>>());
 app.UseStaticFiles();
 
 app.UseSerilogRequestLogging();// kendinden sonraki yerler loglanır
