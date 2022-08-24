@@ -23,6 +23,7 @@
     <ProjectReference Include="..\..\Core\eTrade.Application\eTrade.Application.csproj" />
     <ProjectReference Include="..\..\eTrade.Infastucture\eTrade.Infastucture.csproj" />
     <ProjectReference Include="..\..\eTrade.Persistence\eTrade.Persistence.csproj" />
+    <ProjectReference Include="..\..\Infrastucture\eTrade.SignalR\eTrade.SignalR.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,17 @@
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\bin\Debug\net6.0\eTrade.SignalR.deps.json
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\bin\Debug\net6.0\eTrade.SignalR.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\bin\Debug\net6.0\eTrade.SignalR.pdb
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\bin\Debug\net6.0\eTrade.Application.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\bin\Debug\net6.0\eTrade.Domain.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\bin\Debug\net6.0\eTrade.Application.pdb
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\bin\Debug\net6.0\eTrade.Domain.pdb
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\obj\Debug\net6.0\eTrade.SignalR.csproj.AssemblyReference.cache
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\obj\Debug\net6.0\eTrade.SignalR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\obj\Debug\net6.0\eTrade.SignalR.AssemblyInfoInputs.cache
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\obj\Debug\net6.0\eTrade.SignalR.AssemblyInfo.cs
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\obj\Debug\net6.0\eTrade.SignalR.csproj.CoreCompileInputs.cache
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\obj\Debug\net6.0\eTrade.SignalR.csproj.CopyComplete
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\obj\Debug\net6.0\eTrade.SignalR.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\obj\Debug\net6.0\refint\eTrade.SignalR.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\obj\Debug\net6.0\eTrade.SignalR.pdb
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Infrastucture\eTrade.SignalR\obj\Debug\net6.0\ref\eTrade.SignalR.dll

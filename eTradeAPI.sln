@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eTradeAPI.API", "Presentation\eTrade.API\eTradeAPI.API.csproj", "{C0A8E376-B009-4154-A327-5D5595856E52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTrade.SignalR", "Infrastucture\eTrade.SignalR\eTrade.SignalR.csproj", "{385BCA9D-F43A-4AF9-9716-A75721279C41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C0A8E376-B009-4154-A327-5D5595856E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0A8E376-B009-4154-A327-5D5595856E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0A8E376-B009-4154-A327-5D5595856E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385BCA9D-F43A-4AF9-9716-A75721279C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385BCA9D-F43A-4AF9-9716-A75721279C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385BCA9D-F43A-4AF9-9716-A75721279C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385BCA9D-F43A-4AF9-9716-A75721279C41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{8B4BC10D-7F41-4FD6-9FE7-5F44756F28B4} = {C6E93077-7DB6-4935-A35A-44F2C3B63C23}
 		{8A5FC480-054E-4047-A04B-61AF153A44F0} = {C6E93077-7DB6-4935-A35A-44F2C3B63C23}
 		{C0A8E376-B009-4154-A327-5D5595856E52} = {EA3CC135-F53E-44B0-9065-158221613ECA}
+		{385BCA9D-F43A-4AF9-9716-A75721279C41} = {C6E93077-7DB6-4935-A35A-44F2C3B63C23}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41ACDFF5-4DD2-4AF0-A72F-BDF03C72EF38}

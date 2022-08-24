@@ -81,3 +81,5 @@ C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Deb
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
 C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\Serilog.Sinks.Seq.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\eTrade.SignalR.dll
+C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\bin\Debug\net6.0\eTrade.SignalR.pdb

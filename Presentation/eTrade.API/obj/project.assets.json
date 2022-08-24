@@ -1646,6 +1646,22 @@
         "runtime": {
           "bin/placeholder/eTrade.Persistence.dll": {}
         }
+      },
+      "eTrade.SignalR/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "eTrade.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/eTrade.SignalR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eTrade.SignalR.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -4924,6 +4940,11 @@
       "type": "project",
       "path": "../../eTrade.Persistence/eTrade.Persistence.csproj",
       "msbuildProject": "../../eTrade.Persistence/eTrade.Persistence.csproj"
+    },
+    "eTrade.SignalR/1.0.0": {
+      "type": "project",
+      "path": "../../Infrastucture/eTrade.SignalR/eTrade.SignalR.csproj",
+      "msbuildProject": "../../Infrastucture/eTrade.SignalR/eTrade.SignalR.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4937,7 +4958,8 @@
       "Swashbuckle.AspNetCore >= 6.3.0",
       "eTrade.Application >= 1.0.0",
       "eTrade.Infastucture >= 1.0.0",
-      "eTrade.Persistence >= 1.0.0"
+      "eTrade.Persistence >= 1.0.0",
+      "eTrade.SignalR >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4983,6 +5005,9 @@
             },
             "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\eTrade.Persistence\\eTrade.Persistence.csproj": {
               "projectPath": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\eTrade.Persistence\\eTrade.Persistence.csproj"
+            },
+            "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Infrastucture\\eTrade.SignalR\\eTrade.SignalR.csproj": {
+              "projectPath": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Infrastucture\\eTrade.SignalR\\eTrade.SignalR.csproj"
             }
           }
         }

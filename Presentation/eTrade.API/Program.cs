@@ -5,6 +5,8 @@ using eTrade.Infastucture.Filters;
 using eTrade.Infastucture.Services.Storage.Local;
 using eTrade.Infastucture.Services.Storage.Local.Azure;
 using eTrade.Persistence;
+using eTrade.SignalR;
+using eTrade.SignalR.Hubs;
 using eTradeAPI.API.Configurations.ColumnWriters;
 using eTradeAPI.API.Extensions;
 using FluentValidation.AspNetCore;
@@ -23,13 +25,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
 builder.Services.AddApplicationServices();
+builder.Services.AddSignalRServices();
 
 //builder.Services.AddStorage<LocalStorage>();
 builder.Services.AddStorage<AzureStorage>();
 //builder.Services.AddStorage();
 
 builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
-    policy.WithOrigins("http://localhost:4200", "https://localhost:4200").AllowAnyHeader().AllowAnyMethod()
+    policy.WithOrigins("http://localhost:4200", "https://localhost:4200").AllowAnyHeader().AllowAnyMethod().AllowCredentials()
 ));
 
 Logger log = new LoggerConfiguration()
@@ -117,5 +120,5 @@ app.Use(async (context, next) =>
 });
 
 app.MapControllers();
-
+app.MapHubs();
 app.Run();

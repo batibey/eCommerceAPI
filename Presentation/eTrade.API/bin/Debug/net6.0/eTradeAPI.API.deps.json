@@ -17,7 +17,8 @@
           "Swashbuckle.AspNetCore": "6.3.0",
           "eTrade.Application": "1.0.0",
           "eTrade.Infastucture": "1.0.0",
-          "eTrade.Persistence": "1.0.0"
+          "eTrade.Persistence": "1.0.0",
+          "eTrade.SignalR": "1.0.0"
         },
         "runtime": {
           "eTradeAPI.API.dll": {}
@@ -1044,6 +1045,14 @@
         "runtime": {
           "eTrade.Persistence.dll": {}
         }
+      },
+      "eTrade.SignalR/1.0.0": {
+        "dependencies": {
+          "eTrade.Application": "1.0.0"
+        },
+        "runtime": {
+          "eTrade.SignalR.dll": {}
+        }
       }
     }
   },
@@ -1902,6 +1911,11 @@
       "sha512": ""
     },
     "eTrade.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eTrade.SignalR/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
