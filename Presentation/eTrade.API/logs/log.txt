@@ -19304,3 +19304,1183 @@ Content-Type: application/json; charset=utf-8
 2022-08-30 14:58:10.440 +03:00 [INF] Executed endpoint 'eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API)'
 2022-08-30 14:58:10.442 +03:00 [INF] ResponseBody: {"totalProductCount":16,"products":[{"id":"0dbc0737-5a2f-42c1-ae28-f0f9a4ad7d0c","name":"test13","stock":4,"price":31,"createdDate":"2022-05-07T19:43:28.670487Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"3bd1911e-e3a0-47e3-bd56-1770bee83505","name":"test49","stock":17,"price":12,"createdDate":"2022-05-07T19:43:59.238189Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"881a7e9f-cae0-4574-bfc1-27bb90987507","name":"deneme 2","stock":1,"price":4,"createdDate":"2022-05-07T19:08:55.421604Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"9e1ad9cd-86e6-462a-9152-a5e303102b7c","name":"test63","stock":8,"price":6,"createdDate":"2022-05-07T19:44:23.527858Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"a4442043-9c1e-4f5e-9cb6-ff1a6604e6c7","name":"ürün 1","stock":1,"price":2,"createdDate":"2022-05-07T19:04:08.492469Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"wallpaper-7.jpg","path":"photo-images/wallpaper-7.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"cbbe5e3d-c7e9-48f7-a6f0-697dbc803786","createdDate":"2022-08-30T10:06:39.411042Z"}]},{"id":"b582b272-3e17-4494-bcab-2f6ac5cd2aca","name":"test12","stock":2,"price":20,"createdDate":"2022-05-07T19:43:20.725508Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"bbbd04c3-0f11-4185-b22c-d3a9a84ecc5e","name":"test60","stock":25,"price":20,"createdDate":"2022-05-07T19:44:10.295295Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":false,"products":null,"fileName":"hostDomain.PNG","path":"photo-images\\hostDomain.PNG","storage":"LocalStorage","updatedDate":"0001-01-01T00:00:00","id":"5e3725f2-381d-4735-8245-30a608147d41","createdDate":"2022-05-26T21:16:12.330767Z"}]},{"id":"be12bfba-814f-4141-b085-042f5dbefb4d","name":"Defter","stock":100,"price":5,"createdDate":"2022-04-24T07:34:38.938975Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"c4ed3ddf-5bce-4069-9a1c-e960372e1db7","name":"Kalem","stock":100,"price":15,"createdDate":"2022-04-24T07:21:24.315664Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"24323432432.PNG","path":"photo-images/24323432432.PNG","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"24f0bd3b-9ec5-4db7-8ed8-e756267bfc35","createdDate":"2022-06-04T07:28:21.009806Z"},{"showcase":false,"products":null,"fileName":"wallpaper-6.jpg","path":"photo-images/wallpaper-6.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"2d5df13c-ff5d-4a72-bbdf-3c0b08af4cab","createdDate":"2022-08-30T06:03:53.268471Z"}]},{"id":"ddbc81c2-0f1f-4456-b8ab-12510893d62d","name":"Silgi","stock":50,"price":1,"createdDate":"2022-04-24T07:34:38.938968Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"e11b06fc-d110-45b2-b29c-98ed9cbcaef1","name":"test 70","stock":7,"price":11,"createdDate":"2022-05-07T19:44:40.534865Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"f9d9fe0c-0ed9-4f73-941b-fafac7b62d41","name":"Kağıt","stock":1000,"price":5,"createdDate":"2022-04-24T07:34:38.938975Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]}]}
 2022-08-30 14:58:10.447 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7122/api/products?page=0&size=12 - - - 200 - application/json;+charset=utf-8 43.2923ms
+2022-08-30 15:07:55.938 +03:00 [INF] User profile is available. Using 'C:\Users\mustafabati\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-08-30 15:07:56.359 +03:00 [INF] Now listening on: https://localhost:7122
+2022-08-30 15:07:56.366 +03:00 [INF] Now listening on: http://localhost:5122
+2022-08-30 15:07:56.372 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-30 15:07:56.373 +03:00 [INF] Hosting environment: Development
+2022-08-30 15:07:56.374 +03:00 [INF] Content root path: C:\Users\mustafabati\Desktop\eTradeApp\eTradeAPI\Presentation\eTrade.API\
+2022-08-30 15:09:27.174 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/auth/login - -
+2022-08-30 15:09:27.343 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/login
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:09:27.350 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:09:27.352 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-30 15:09:27.367 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/auth/login - - - 204 - - 196.4982ms
+2022-08-30 15:09:27.377 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7122/api/auth/login application/json 45
+2022-08-30 15:09:27.384 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/login
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 45
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:09:27.386 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:09:27.413 +03:00 [INF] Executing endpoint 'eTradeAPI.API.controller.AuthController.Login (eTradeAPI.API)'
+2022-08-30 15:09:27.452 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(eTrade.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandRequest) on controller eTradeAPI.API.controller.AuthController (eTradeAPI.API).
+2022-08-30 15:09:27.483 +03:00 [INF] RequestBody: {"usernameOrEmail":"test1","password":"1234"}
+2022-08-30 15:09:29.713 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'eTradeAPIDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2022-08-30 15:09:30.274 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2022-08-30 15:09:30.643 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2022-08-30 15:09:30.812 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2022-08-30 15:09:30.884 +03:00 [INF] Executing OkObjectResult, writing value of type 'eTrade.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandResponse+LoginUserSuccessCommandResponse'.
+2022-08-30 15:09:30.894 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-30 15:09:30.904 +03:00 [INF] Executed action eTradeAPI.API.controller.AuthController.Login (eTradeAPI.API) in 3444.6333ms
+2022-08-30 15:09:30.907 +03:00 [INF] Executed endpoint 'eTradeAPI.API.controller.AuthController.Login (eTradeAPI.API)'
+2022-08-30 15:09:30.910 +03:00 [INF] ResponseBody: {"token":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdDEiLCJuYmYiOjE2NjE4NjEzNzAsImV4cCI6MTY2MTg2MjI3MCwiaXNzIjoid3d3Lm15YXBpLmNvbSIsImF1ZCI6Ind3dy5iYXRpLmNvbSJ9.AS8y_8Ka6qnjaREew3y6lJ3jU4d9bCT-96uV-ASSSPc","expiration":"2022-08-30T12:24:30.4885592Z","refreshToken":"0O6U93vy9UfeiilZmpAV1SHah90Kl5BJP4A7bDx2xn0="}}
+2022-08-30 15:09:30.928 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7122/api/auth/login application/json 45 - 200 - application/json;+charset=utf-8 3554.7339ms
+2022-08-30 15:09:32.269 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/products-hub/negotiate?negotiateVersion=1 - -
+2022-08-30 15:09:32.272 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /products-hub/negotiate
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Cache-Control: max-age=0
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:09:32.275 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:09:32.277 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-30 15:09:32.280 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/products-hub/negotiate?negotiateVersion=1 - - - 204 - - 11.0431ms
+2022-08-30 15:09:32.296 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7122/products-hub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+2022-08-30 15:09:32.300 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /products-hub/negotiate
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: text/plain;charset=UTF-8
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: [Redacted]
+x-signalr-user-agent: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:09:32.303 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:09:32.305 +03:00 [INF] Executing endpoint '/products-hub/negotiate'
+2022-08-30 15:09:32.333 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json
+Content-Length: 316
+2022-08-30 15:09:32.338 +03:00 [INF] Executed endpoint '/products-hub/negotiate'
+2022-08-30 15:09:32.339 +03:00 [INF] RequestBody: 
+2022-08-30 15:09:32.342 +03:00 [INF] ResponseBody: {"negotiateVersion":1,"connectionId":"VYxuHbofGR4c8zyg-RG0Kg","connectionToken":"oaTbp2P9pUaXggsnWQ3jXQ","availableTransports":[{"transport":"WebSockets","transferFormats":["Text","Binary"]},{"transport":"ServerSentEvents","transferFormats":["Text"]},{"transport":"LongPolling","transferFormats":["Text","Binary"]}]}
+2022-08-30 15:09:32.346 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7122/products-hub/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0 - 200 316 application/json 49.9133ms
+2022-08-30 15:09:32.383 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7122/products-hub?id=oaTbp2P9pUaXggsnWQ3jXQ - -
+2022-08-30 15:09:32.399 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /products-hub
+Connection: Upgrade
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Origin: [Redacted]
+Pragma: [Redacted]
+Upgrade: websocket
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Key: [Redacted]
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-30 15:09:32.403 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:09:32.408 +03:00 [INF] Executing endpoint '/products-hub'
+2022-08-30 15:09:36.039 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/products?page=0&size=5 - -
+2022-08-30 15:09:36.042 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:09:36.044 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:09:36.046 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-30 15:09:36.048 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/products?page=0&size=5 - - - 204 - - 8.5933ms
+2022-08-30 15:09:36.052 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7122/api/products?page=0&size=5 - -
+2022-08-30 15:09:36.054 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:09:36.055 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:09:36.057 +03:00 [INF] Executing endpoint 'eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API)'
+2022-08-30 15:09:36.065 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(eTrade.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller eTradeAPI.API.controller.ProductsController (eTradeAPI.API).
+2022-08-30 15:09:36.092 +03:00 [INF] Get all products
+2022-08-30 15:09:36.174 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'eTradeAPIDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2022-08-30 15:09:36.267 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2022-08-30 15:09:36.406 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-08-30 15:09:36.413 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-08-30 15:09:36.699 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase", t0."ProductImageFilesId", t0."ProductsId"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."Path", t1."Storage", t1."Showcase", p0."ProductImageFilesId", p0."ProductsId"
+    FROM "ProductProductImageFile" AS p0
+    INNER JOIN (
+        SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase"
+        FROM "Files" AS f
+        WHERE f."Discriminator" = 'ProductImageFile'
+    ) AS t1 ON p0."ProductImageFilesId" = t1."Id"
+) AS t0 ON t."Id" = t0."ProductsId"
+ORDER BY t."Id", t0."ProductImageFilesId", t0."ProductsId"
+2022-08-30 15:09:36.719 +03:00 [INF] Executing OkObjectResult, writing value of type 'eTrade.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2022-08-30 15:09:36.745 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-30 15:09:36.748 +03:00 [INF] Executed action eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API) in 681.1625ms
+2022-08-30 15:09:36.751 +03:00 [INF] Executed endpoint 'eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API)'
+2022-08-30 15:09:36.753 +03:00 [INF] ResponseBody: {"totalProductCount":16,"products":[{"id":"a4442043-9c1e-4f5e-9cb6-ff1a6604e6c7","name":"ürün 1","stock":1,"price":2,"createdDate":"2022-05-07T19:04:08.492469Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"wallpaper-7.jpg","path":"photo-images/wallpaper-7.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"cbbe5e3d-c7e9-48f7-a6f0-697dbc803786","createdDate":"2022-08-30T10:06:39.411042Z"}]},{"id":"be12bfba-814f-4141-b085-042f5dbefb4d","name":"Defter","stock":100,"price":5,"createdDate":"2022-04-24T07:34:38.938975Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"c4ed3ddf-5bce-4069-9a1c-e960372e1db7","name":"Kalem","stock":100,"price":15,"createdDate":"2022-04-24T07:21:24.315664Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"24323432432.PNG","path":"photo-images/24323432432.PNG","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"24f0bd3b-9ec5-4db7-8ed8-e756267bfc35","createdDate":"2022-06-04T07:28:21.009806Z"},{"showcase":false,"products":null,"fileName":"wallpaper-6.jpg","path":"photo-images/wallpaper-6.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"2d5df13c-ff5d-4a72-bbdf-3c0b08af4cab","createdDate":"2022-08-30T06:03:53.268471Z"}]},{"id":"ddbc81c2-0f1f-4456-b8ab-12510893d62d","name":"Silgi","stock":50,"price":1,"createdDate":"2022-04-24T07:34:38.938968Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"f9d9fe0c-0ed9-4f73-941b-fafac7b62d41","name":"Kağıt","stock":1000,"price":5,"createdDate":"2022-04-24T07:34:38.938975Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]}]}
+2022-08-30 15:09:36.758 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7122/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 706.1620ms
+2022-08-30 15:09:39.689 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/products/getproductimages/be12bfba-814f-4141-b085-042f5dbefb4d - -
+2022-08-30 15:09:39.691 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products/getproductimages/be12bfba-814f-4141-b085-042f5dbefb4d
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:09:39.693 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:09:39.695 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-30 15:09:39.697 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/products/getproductimages/be12bfba-814f-4141-b085-042f5dbefb4d - - - 204 - - 7.6671ms
+2022-08-30 15:09:39.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7122/api/products/getproductimages/be12bfba-814f-4141-b085-042f5dbefb4d - -
+2022-08-30 15:09:39.703 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products/getproductimages/be12bfba-814f-4141-b085-042f5dbefb4d
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:09:39.705 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:09:39.911 +03:00 [INF] Executing endpoint 'eTradeAPI.API.controller.ProductsController.GetProductImages (eTradeAPI.API)'
+2022-08-30 15:09:39.916 +03:00 [INF] Route matched with {action = "GetProductImages", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductImages(eTrade.Application.Features.Queries.ProductImageFile.GetProductImages.GetProductImagesQueryRequest) on controller eTradeAPI.API.controller.ProductsController (eTradeAPI.API).
+2022-08-30 15:09:39.954 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'eTradeAPIDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2022-08-30 15:09:40.067 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[@__Parse_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."CreatedDate", t."Name", t."Price", t."Stock", t."UpdatedDate", t0."ProductImageFilesId", t0."ProductsId", t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase"
+FROM (
+    SELECT p."Id", p."CreatedDate", p."Name", p."Price", p."Stock", p."UpdatedDate"
+    FROM "Products" AS p
+    WHERE p."Id" = @__Parse_0
+    LIMIT 1
+) AS t
+LEFT JOIN (
+    SELECT p0."ProductImageFilesId", p0."ProductsId", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."Path", t1."Storage", t1."Showcase"
+    FROM "ProductProductImageFile" AS p0
+    INNER JOIN (
+        SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase"
+        FROM "Files" AS f
+        WHERE f."Discriminator" = 'ProductImageFile'
+    ) AS t1 ON p0."ProductImageFilesId" = t1."Id"
+) AS t0 ON t."Id" = t0."ProductsId"
+ORDER BY t."Id", t0."ProductImageFilesId", t0."ProductsId"
+2022-08-30 15:09:40.167 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[eTrade.Application.Features.Queries.ProductImageFile.GetProductImages.GetProductImagesQueryResponse, eTrade.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-08-30 15:09:40.169 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-30 15:09:40.170 +03:00 [INF] Executed action eTradeAPI.API.controller.ProductsController.GetProductImages (eTradeAPI.API) in 251.5202ms
+2022-08-30 15:09:40.174 +03:00 [INF] Executed endpoint 'eTradeAPI.API.controller.ProductsController.GetProductImages (eTradeAPI.API)'
+2022-08-30 15:09:40.177 +03:00 [INF] ResponseBody: []
+2022-08-30 15:09:40.178 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7122/api/products/getproductimages/be12bfba-814f-4141-b085-042f5dbefb4d - - - 200 - application/json;+charset=utf-8 478.0159ms
+2022-08-30 15:09:48.600 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/products/upload?id=be12bfba-814f-4141-b085-042f5dbefb4d - -
+2022-08-30 15:09:48.602 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products/upload
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:09:48.606 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:09:48.609 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-30 15:09:48.613 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/products/upload?id=be12bfba-814f-4141-b085-042f5dbefb4d - - - 204 - - 12.9494ms
+2022-08-30 15:09:48.621 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7122/api/products/upload?id=be12bfba-814f-4141-b085-042f5dbefb4d multipart/form-data;+boundary=----WebKitFormBoundaryHw00bW7Cgf6zxsGY 1807240
+2022-08-30 15:09:48.625 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/products/upload
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHw00bW7Cgf6zxsGY
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 1807240
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+responsetype: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:09:48.630 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:09:48.633 +03:00 [INF] Executing endpoint 'eTradeAPI.API.controller.ProductsController.Upload (eTradeAPI.API)'
+2022-08-30 15:09:48.641 +03:00 [INF] Route matched with {action = "Upload", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(eTrade.Application.Features.Commands.ProductImageFile.UploadProductImage.UploadProductImageCommandRequest) on controller eTradeAPI.API.controller.ProductsController (eTradeAPI.API).
+2022-08-30 15:09:56.000 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'eTradeAPIDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2022-08-30 15:09:56.009 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Parse_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreatedDate", p."Name", p."Price", p."Stock", p."UpdatedDate"
+FROM "Products" AS p
+WHERE p."Id" = @__Parse_0
+LIMIT 1
+2022-08-30 15:09:56.202 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?', @p4='?', @p5='?' (DbType = Boolean), @p6='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Files" ("Id", "CreatedDate", "Discriminator", "FileName", "Path", "Showcase", "Storage")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2022-08-30 15:09:56.209 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p7='?' (DbType = Guid), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ProductProductImageFile" ("ProductImageFilesId", "ProductsId")
+VALUES (@p7, @p8);
+2022-08-30 15:09:56.217 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-08-30 15:09:56.220 +03:00 [INF] Executed action eTradeAPI.API.controller.ProductsController.Upload (eTradeAPI.API) in 7575.7225ms
+2022-08-30 15:09:56.222 +03:00 [INF] Executed endpoint 'eTradeAPI.API.controller.ProductsController.Upload (eTradeAPI.API)'
+2022-08-30 15:09:56.224 +03:00 [INF] Response:
+StatusCode: 200
+2022-08-30 15:09:56.227 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7122/api/products/upload?id=be12bfba-814f-4141-b085-042f5dbefb4d multipart/form-data;+boundary=----WebKitFormBoundaryHw00bW7Cgf6zxsGY 1807240 - 200 0 - 7607.0384ms
+2022-08-30 15:10:00.338 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/products/getproductimages/be12bfba-814f-4141-b085-042f5dbefb4d - -
+2022-08-30 15:10:00.340 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products/getproductimages/be12bfba-814f-4141-b085-042f5dbefb4d
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:10:00.343 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:10:00.344 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-30 15:10:00.346 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/products/getproductimages/be12bfba-814f-4141-b085-042f5dbefb4d - - - 204 - - 8.4908ms
+2022-08-30 15:10:00.353 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7122/api/products/getproductimages/be12bfba-814f-4141-b085-042f5dbefb4d - -
+2022-08-30 15:10:00.356 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products/getproductimages/be12bfba-814f-4141-b085-042f5dbefb4d
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:10:00.360 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:10:00.367 +03:00 [INF] Executing endpoint 'eTradeAPI.API.controller.ProductsController.GetProductImages (eTradeAPI.API)'
+2022-08-30 15:10:00.372 +03:00 [INF] Route matched with {action = "GetProductImages", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductImages(eTrade.Application.Features.Queries.ProductImageFile.GetProductImages.GetProductImagesQueryRequest) on controller eTradeAPI.API.controller.ProductsController (eTradeAPI.API).
+2022-08-30 15:10:00.384 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'eTradeAPIDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2022-08-30 15:10:00.397 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__Parse_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."CreatedDate", t."Name", t."Price", t."Stock", t."UpdatedDate", t0."ProductImageFilesId", t0."ProductsId", t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase"
+FROM (
+    SELECT p."Id", p."CreatedDate", p."Name", p."Price", p."Stock", p."UpdatedDate"
+    FROM "Products" AS p
+    WHERE p."Id" = @__Parse_0
+    LIMIT 1
+) AS t
+LEFT JOIN (
+    SELECT p0."ProductImageFilesId", p0."ProductsId", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."Path", t1."Storage", t1."Showcase"
+    FROM "ProductProductImageFile" AS p0
+    INNER JOIN (
+        SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase"
+        FROM "Files" AS f
+        WHERE f."Discriminator" = 'ProductImageFile'
+    ) AS t1 ON p0."ProductImageFilesId" = t1."Id"
+) AS t0 ON t."Id" = t0."ProductsId"
+ORDER BY t."Id", t0."ProductImageFilesId", t0."ProductsId"
+2022-08-30 15:10:00.428 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[eTrade.Application.Features.Queries.ProductImageFile.GetProductImages.GetProductImagesQueryResponse, eTrade.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-08-30 15:10:00.431 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-30 15:10:00.432 +03:00 [INF] Executed action eTradeAPI.API.controller.ProductsController.GetProductImages (eTradeAPI.API) in 50.5133ms
+2022-08-30 15:10:00.434 +03:00 [INF] Executed endpoint 'eTradeAPI.API.controller.ProductsController.GetProductImages (eTradeAPI.API)'
+2022-08-30 15:10:00.440 +03:00 [INF] ResponseBody: [{"path":"https://ecommercebati.blob.core.windows.net/photo-images/wallpaper-8.jpg","id":"d0032748-481c-4b01-9495-6f69ab26f9ec","fileName":"wallpaper-8.jpg"}]
+2022-08-30 15:10:00.442 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7122/api/products/getproductimages/be12bfba-814f-4141-b085-042f5dbefb4d - - - 200 - application/json;+charset=utf-8 88.7450ms
+2022-08-30 15:10:04.606 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/products/ChangeShowcaseImage?imageId=d0032748-481c-4b01-9495-6f69ab26f9ec&productId=be12bfba-814f-4141-b085-042f5dbefb4d - -
+2022-08-30 15:10:04.609 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products/ChangeShowcaseImage
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:10:04.619 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:10:04.621 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-30 15:10:04.623 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/products/ChangeShowcaseImage?imageId=d0032748-481c-4b01-9495-6f69ab26f9ec&productId=be12bfba-814f-4141-b085-042f5dbefb4d - - - 204 - - 16.8586ms
+2022-08-30 15:10:04.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7122/api/products/ChangeShowcaseImage?imageId=d0032748-481c-4b01-9495-6f69ab26f9ec&productId=be12bfba-814f-4141-b085-042f5dbefb4d - -
+2022-08-30 15:10:04.629 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products/ChangeShowcaseImage
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:10:04.633 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:10:04.635 +03:00 [INF] Executing endpoint 'eTradeAPI.API.controller.ProductsController.ChangeShowcaseImage (eTradeAPI.API)'
+2022-08-30 15:10:04.649 +03:00 [INF] Route matched with {action = "ChangeShowcaseImage", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangeShowcaseImage(eTrade.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandRequest) on controller eTradeAPI.API.controller.ProductsController (eTradeAPI.API).
+2022-08-30 15:10:04.662 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'eTradeAPIDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2022-08-30 15:10:04.720 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__Parse_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase", t0."ProductImageFilesId", t0."ProductsId", t0."Id0", t1."ProductImageFilesId", t1."ProductsId", t1."Id", t1."CreatedDate", t1."Name", t1."Price", t1."Stock", t1."UpdatedDate", t0."CreatedDate0", t0."Name", t0."Price", t0."Stock", t0."UpdatedDate"
+FROM (
+    SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase", t."Id" AS "Id0", t."CreatedDate" AS "CreatedDate0", t."Name", t."Price", t."Stock", t."UpdatedDate", t."ProductImageFilesId", t."ProductsId"
+    FROM "Files" AS f
+    INNER JOIN (
+        SELECT p0."Id", p0."CreatedDate", p0."Name", p0."Price", p0."Stock", p0."UpdatedDate", p."ProductImageFilesId", p."ProductsId"
+        FROM "ProductProductImageFile" AS p
+        INNER JOIN "Products" AS p0 ON p."ProductsId" = p0."Id"
+    ) AS t ON f."Id" = t."ProductImageFilesId"
+    WHERE (f."Discriminator" = 'ProductImageFile') AND ((t."Id" = @__Parse_0) AND f."Showcase")
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT p1."ProductImageFilesId", p1."ProductsId", p2."Id", p2."CreatedDate", p2."Name", p2."Price", p2."Stock", p2."UpdatedDate"
+    FROM "ProductProductImageFile" AS p1
+    INNER JOIN "Products" AS p2 ON p1."ProductsId" = p2."Id"
+) AS t1 ON t0."Id" = t1."ProductImageFilesId"
+ORDER BY t0."Id", t0."ProductImageFilesId", t0."ProductsId", t0."Id0", t1."ProductImageFilesId", t1."ProductsId"
+2022-08-30 15:10:04.758 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__Parse_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase", t0."ProductImageFilesId", t0."ProductsId", t0."Id0", t1."ProductImageFilesId", t1."ProductsId", t1."Id", t1."CreatedDate", t1."Name", t1."Price", t1."Stock", t1."UpdatedDate", t0."CreatedDate0", t0."Name", t0."Price", t0."Stock", t0."UpdatedDate"
+FROM (
+    SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase", t."Id" AS "Id0", t."CreatedDate" AS "CreatedDate0", t."Name", t."Price", t."Stock", t."UpdatedDate", t."ProductImageFilesId", t."ProductsId"
+    FROM "Files" AS f
+    INNER JOIN (
+        SELECT p0."Id", p0."CreatedDate", p0."Name", p0."Price", p0."Stock", p0."UpdatedDate", p."ProductImageFilesId", p."ProductsId"
+        FROM "ProductProductImageFile" AS p
+        INNER JOIN "Products" AS p0 ON p."ProductsId" = p0."Id"
+    ) AS t ON f."Id" = t."ProductImageFilesId"
+    WHERE (f."Discriminator" = 'ProductImageFile') AND (f."Id" = @__Parse_0)
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT p1."ProductImageFilesId", p1."ProductsId", p2."Id", p2."CreatedDate", p2."Name", p2."Price", p2."Stock", p2."UpdatedDate"
+    FROM "ProductProductImageFile" AS p1
+    INNER JOIN "Products" AS p2 ON p1."ProductsId" = p2."Id"
+) AS t1 ON t0."Id" = t1."ProductImageFilesId"
+ORDER BY t0."Id", t0."ProductImageFilesId", t0."ProductsId", t0."Id0", t1."ProductImageFilesId", t1."ProductsId"
+2022-08-30 15:10:04.766 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Files" SET "Showcase" = @p0
+WHERE "Id" = @p1;
+2022-08-30 15:10:04.777 +03:00 [INF] Executing OkObjectResult, writing value of type 'eTrade.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandResponse'.
+2022-08-30 15:10:04.780 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-30 15:10:04.782 +03:00 [INF] Executed action eTradeAPI.API.controller.ProductsController.ChangeShowcaseImage (eTradeAPI.API) in 126.2634ms
+2022-08-30 15:10:04.785 +03:00 [INF] Executed endpoint 'eTradeAPI.API.controller.ProductsController.ChangeShowcaseImage (eTradeAPI.API)'
+2022-08-30 15:10:04.789 +03:00 [INF] ResponseBody: {}
+2022-08-30 15:10:04.791 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7122/api/products/ChangeShowcaseImage?imageId=d0032748-481c-4b01-9495-6f69ab26f9ec&productId=be12bfba-814f-4141-b085-042f5dbefb4d - - - 200 - application/json;+charset=utf-8 164.2652ms
+2022-08-30 15:10:13.328 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/files/GetBaseStorageUrl - -
+2022-08-30 15:10:13.329 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/files/GetBaseStorageUrl
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:10:13.333 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:10:13.334 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-30 15:10:13.335 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/files/GetBaseStorageUrl - - - 204 - - 7.2577ms
+2022-08-30 15:10:13.338 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7122/api/files/GetBaseStorageUrl - -
+2022-08-30 15:10:13.340 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/files/GetBaseStorageUrl
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:10:13.341 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:10:13.342 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.FilesController.GetBaseStorageUrl (eTradeAPI.API)'
+2022-08-30 15:10:13.343 +03:00 [INF] Route matched with {action = "GetBaseStorageUrl", controller = "Files"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBaseStorageUrl() on controller ETicaretAPI.API.Controllers.FilesController (eTradeAPI.API).
+2022-08-30 15:10:13.346 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-08-30 15:10:13.349 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-30 15:10:13.351 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.FilesController.GetBaseStorageUrl (eTradeAPI.API) in 5.5497ms
+2022-08-30 15:10:13.352 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.FilesController.GetBaseStorageUrl (eTradeAPI.API)'
+2022-08-30 15:10:13.354 +03:00 [INF] ResponseBody: {"url":"https://ecommercebati.blob.core.windows.net"}
+2022-08-30 15:10:13.355 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7122/api/files/GetBaseStorageUrl - - - 200 - application/json;+charset=utf-8 17.2318ms
+2022-08-30 15:10:13.364 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/products?page=0&size=12 - -
+2022-08-30 15:10:13.365 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:10:13.367 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:10:13.369 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-30 15:10:13.371 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/products?page=0&size=12 - - - 204 - - 7.3693ms
+2022-08-30 15:10:13.374 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7122/api/products?page=0&size=12 - -
+2022-08-30 15:10:13.375 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:10:13.377 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:10:13.378 +03:00 [INF] Executing endpoint 'eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API)'
+2022-08-30 15:10:13.380 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(eTrade.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller eTradeAPI.API.controller.ProductsController (eTradeAPI.API).
+2022-08-30 15:10:13.384 +03:00 [INF] Get all products
+2022-08-30 15:10:13.387 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'eTradeAPIDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2022-08-30 15:10:13.391 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2022-08-30 15:10:13.396 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase", t0."ProductImageFilesId", t0."ProductsId"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."Path", t1."Storage", t1."Showcase", p0."ProductImageFilesId", p0."ProductsId"
+    FROM "ProductProductImageFile" AS p0
+    INNER JOIN (
+        SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase"
+        FROM "Files" AS f
+        WHERE f."Discriminator" = 'ProductImageFile'
+    ) AS t1 ON p0."ProductImageFilesId" = t1."Id"
+) AS t0 ON t."Id" = t0."ProductsId"
+ORDER BY t."Id", t0."ProductImageFilesId", t0."ProductsId"
+2022-08-30 15:10:13.401 +03:00 [INF] Executing OkObjectResult, writing value of type 'eTrade.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2022-08-30 15:10:13.404 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-30 15:10:13.407 +03:00 [INF] Executed action eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API) in 24.1794ms
+2022-08-30 15:10:13.408 +03:00 [INF] Executed endpoint 'eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API)'
+2022-08-30 15:10:13.410 +03:00 [INF] ResponseBody: {"totalProductCount":16,"products":[{"id":"0dbc0737-5a2f-42c1-ae28-f0f9a4ad7d0c","name":"test13","stock":4,"price":31,"createdDate":"2022-05-07T19:43:28.670487Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"3bd1911e-e3a0-47e3-bd56-1770bee83505","name":"test49","stock":17,"price":12,"createdDate":"2022-05-07T19:43:59.238189Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"881a7e9f-cae0-4574-bfc1-27bb90987507","name":"deneme 2","stock":1,"price":4,"createdDate":"2022-05-07T19:08:55.421604Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"9e1ad9cd-86e6-462a-9152-a5e303102b7c","name":"test63","stock":8,"price":6,"createdDate":"2022-05-07T19:44:23.527858Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"a4442043-9c1e-4f5e-9cb6-ff1a6604e6c7","name":"ürün 1","stock":1,"price":2,"createdDate":"2022-05-07T19:04:08.492469Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"wallpaper-7.jpg","path":"photo-images/wallpaper-7.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"cbbe5e3d-c7e9-48f7-a6f0-697dbc803786","createdDate":"2022-08-30T10:06:39.411042Z"}]},{"id":"b582b272-3e17-4494-bcab-2f6ac5cd2aca","name":"test12","stock":2,"price":20,"createdDate":"2022-05-07T19:43:20.725508Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"bbbd04c3-0f11-4185-b22c-d3a9a84ecc5e","name":"test60","stock":25,"price":20,"createdDate":"2022-05-07T19:44:10.295295Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":false,"products":null,"fileName":"hostDomain.PNG","path":"photo-images\\hostDomain.PNG","storage":"LocalStorage","updatedDate":"0001-01-01T00:00:00","id":"5e3725f2-381d-4735-8245-30a608147d41","createdDate":"2022-05-26T21:16:12.330767Z"}]},{"id":"be12bfba-814f-4141-b085-042f5dbefb4d","name":"Defter","stock":100,"price":5,"createdDate":"2022-04-24T07:34:38.938975Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"wallpaper-8.jpg","path":"photo-images/wallpaper-8.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"d0032748-481c-4b01-9495-6f69ab26f9ec","createdDate":"2022-08-30T12:09:56.180327Z"}]},{"id":"c4ed3ddf-5bce-4069-9a1c-e960372e1db7","name":"Kalem","stock":100,"price":15,"createdDate":"2022-04-24T07:21:24.315664Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"24323432432.PNG","path":"photo-images/24323432432.PNG","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"24f0bd3b-9ec5-4db7-8ed8-e756267bfc35","createdDate":"2022-06-04T07:28:21.009806Z"},{"showcase":false,"products":null,"fileName":"wallpaper-6.jpg","path":"photo-images/wallpaper-6.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"2d5df13c-ff5d-4a72-bbdf-3c0b08af4cab","createdDate":"2022-08-30T06:03:53.268471Z"}]},{"id":"ddbc81c2-0f1f-4456-b8ab-12510893d62d","name":"Silgi","stock":50,"price":1,"createdDate":"2022-04-24T07:34:38.938968Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"e11b06fc-d110-45b2-b29c-98ed9cbcaef1","name":"test 70","stock":7,"price":11,"createdDate":"2022-05-07T19:44:40.534865Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"f9d9fe0c-0ed9-4f73-941b-fafac7b62d41","name":"Kağıt","stock":1000,"price":5,"createdDate":"2022-04-24T07:34:38.938975Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]}]}
+2022-08-30 15:10:13.419 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7122/api/products?page=0&size=12 - - - 200 - application/json;+charset=utf-8 44.5076ms
+2022-08-30 15:11:24.298 +03:00 [INF] Executed endpoint '/products-hub'
+2022-08-30 15:11:24.300 +03:00 [INF] Response:
+StatusCode: 101
+Connection: Upgrade
+Date: Tue, 30 Aug 2022 12:09:32 GMT
+Server: Kestrel
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Upgrade: websocket
+Vary: [Redacted]
+Sec-WebSocket-Accept: [Redacted]
+2022-08-30 15:11:24.301 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7122/products-hub?id=oaTbp2P9pUaXggsnWQ3jXQ - - - 101 - - 111918.3453ms
+2022-08-30 15:11:24.856 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/files/GetBaseStorageUrl - -
+2022-08-30 15:11:24.861 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/files/GetBaseStorageUrl
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:11:24.866 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:11:24.870 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-30 15:11:24.878 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/files/GetBaseStorageUrl - - - 204 - - 21.9275ms
+2022-08-30 15:11:24.927 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7122/api/files/GetBaseStorageUrl - -
+2022-08-30 15:11:24.946 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/files/GetBaseStorageUrl
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:11:24.959 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:11:24.967 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.FilesController.GetBaseStorageUrl (eTradeAPI.API)'
+2022-08-30 15:11:24.973 +03:00 [INF] Route matched with {action = "GetBaseStorageUrl", controller = "Files"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBaseStorageUrl() on controller ETicaretAPI.API.Controllers.FilesController (eTradeAPI.API).
+2022-08-30 15:11:24.980 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-08-30 15:11:24.983 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-30 15:11:24.986 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.FilesController.GetBaseStorageUrl (eTradeAPI.API) in 6.3014ms
+2022-08-30 15:11:24.989 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.FilesController.GetBaseStorageUrl (eTradeAPI.API)'
+2022-08-30 15:11:24.992 +03:00 [INF] ResponseBody: {"url":"https://ecommercebati.blob.core.windows.net"}
+2022-08-30 15:11:24.993 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7122/api/files/GetBaseStorageUrl - - - 200 - application/json;+charset=utf-8 65.8512ms
+2022-08-30 15:11:25.008 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/products?page=0&size=12 - -
+2022-08-30 15:11:25.010 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:11:25.017 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:11:25.021 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-30 15:11:25.028 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/products?page=0&size=12 - - - 204 - - 19.9398ms
+2022-08-30 15:11:25.035 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7122/api/products?page=0&size=12 - -
+2022-08-30 15:11:25.037 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:11:25.038 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:11:25.040 +03:00 [INF] Executing endpoint 'eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API)'
+2022-08-30 15:11:25.042 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(eTrade.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller eTradeAPI.API.controller.ProductsController (eTradeAPI.API).
+2022-08-30 15:11:25.052 +03:00 [INF] Get all products
+2022-08-30 15:11:25.056 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'eTradeAPIDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2022-08-30 15:11:25.060 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2022-08-30 15:11:25.069 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase", t0."ProductImageFilesId", t0."ProductsId"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."Path", t1."Storage", t1."Showcase", p0."ProductImageFilesId", p0."ProductsId"
+    FROM "ProductProductImageFile" AS p0
+    INNER JOIN (
+        SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase"
+        FROM "Files" AS f
+        WHERE f."Discriminator" = 'ProductImageFile'
+    ) AS t1 ON p0."ProductImageFilesId" = t1."Id"
+) AS t0 ON t."Id" = t0."ProductsId"
+ORDER BY t."Id", t0."ProductImageFilesId", t0."ProductsId"
+2022-08-30 15:11:25.075 +03:00 [INF] Executing OkObjectResult, writing value of type 'eTrade.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2022-08-30 15:11:25.077 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-30 15:11:25.079 +03:00 [INF] Executed action eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API) in 34.8854ms
+2022-08-30 15:11:25.082 +03:00 [INF] Executed endpoint 'eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API)'
+2022-08-30 15:11:25.084 +03:00 [INF] ResponseBody: {"totalProductCount":16,"products":[{"id":"0dbc0737-5a2f-42c1-ae28-f0f9a4ad7d0c","name":"test13","stock":4,"price":31,"createdDate":"2022-05-07T19:43:28.670487Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"3bd1911e-e3a0-47e3-bd56-1770bee83505","name":"test49","stock":17,"price":12,"createdDate":"2022-05-07T19:43:59.238189Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"881a7e9f-cae0-4574-bfc1-27bb90987507","name":"deneme 2","stock":1,"price":4,"createdDate":"2022-05-07T19:08:55.421604Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"9e1ad9cd-86e6-462a-9152-a5e303102b7c","name":"test63","stock":8,"price":6,"createdDate":"2022-05-07T19:44:23.527858Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"a4442043-9c1e-4f5e-9cb6-ff1a6604e6c7","name":"ürün 1","stock":1,"price":2,"createdDate":"2022-05-07T19:04:08.492469Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"wallpaper-7.jpg","path":"photo-images/wallpaper-7.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"cbbe5e3d-c7e9-48f7-a6f0-697dbc803786","createdDate":"2022-08-30T10:06:39.411042Z"}]},{"id":"b582b272-3e17-4494-bcab-2f6ac5cd2aca","name":"test12","stock":2,"price":20,"createdDate":"2022-05-07T19:43:20.725508Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"bbbd04c3-0f11-4185-b22c-d3a9a84ecc5e","name":"test60","stock":25,"price":20,"createdDate":"2022-05-07T19:44:10.295295Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":false,"products":null,"fileName":"hostDomain.PNG","path":"photo-images\\hostDomain.PNG","storage":"LocalStorage","updatedDate":"0001-01-01T00:00:00","id":"5e3725f2-381d-4735-8245-30a608147d41","createdDate":"2022-05-26T21:16:12.330767Z"}]},{"id":"be12bfba-814f-4141-b085-042f5dbefb4d","name":"Defter","stock":100,"price":5,"createdDate":"2022-04-24T07:34:38.938975Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"wallpaper-8.jpg","path":"photo-images/wallpaper-8.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"d0032748-481c-4b01-9495-6f69ab26f9ec","createdDate":"2022-08-30T12:09:56.180327Z"}]},{"id":"c4ed3ddf-5bce-4069-9a1c-e960372e1db7","name":"Kalem","stock":100,"price":15,"createdDate":"2022-04-24T07:21:24.315664Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"24323432432.PNG","path":"photo-images/24323432432.PNG","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"24f0bd3b-9ec5-4db7-8ed8-e756267bfc35","createdDate":"2022-06-04T07:28:21.009806Z"},{"showcase":false,"products":null,"fileName":"wallpaper-6.jpg","path":"photo-images/wallpaper-6.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"2d5df13c-ff5d-4a72-bbdf-3c0b08af4cab","createdDate":"2022-08-30T06:03:53.268471Z"}]},{"id":"ddbc81c2-0f1f-4456-b8ab-12510893d62d","name":"Silgi","stock":50,"price":1,"createdDate":"2022-04-24T07:34:38.938968Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"e11b06fc-d110-45b2-b29c-98ed9cbcaef1","name":"test 70","stock":7,"price":11,"createdDate":"2022-05-07T19:44:40.534865Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"f9d9fe0c-0ed9-4f73-941b-fafac7b62d41","name":"Kağıt","stock":1000,"price":5,"createdDate":"2022-04-24T07:34:38.938975Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]}]}
+2022-08-30 15:11:25.092 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7122/api/products?page=0&size=12 - - - 200 - application/json;+charset=utf-8 56.3042ms
+2022-08-30 15:12:08.794 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/files/GetBaseStorageUrl - -
+2022-08-30 15:12:08.796 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/files/GetBaseStorageUrl
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:12:08.798 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:12:08.799 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-30 15:12:08.800 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/files/GetBaseStorageUrl - - - 204 - - 6.4177ms
+2022-08-30 15:12:08.853 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7122/api/files/GetBaseStorageUrl - -
+2022-08-30 15:12:08.857 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/files/GetBaseStorageUrl
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:12:08.860 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:12:08.861 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.FilesController.GetBaseStorageUrl (eTradeAPI.API)'
+2022-08-30 15:12:08.863 +03:00 [INF] Route matched with {action = "GetBaseStorageUrl", controller = "Files"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBaseStorageUrl() on controller ETicaretAPI.API.Controllers.FilesController (eTradeAPI.API).
+2022-08-30 15:12:08.866 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-08-30 15:12:08.870 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-30 15:12:08.875 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.FilesController.GetBaseStorageUrl (eTradeAPI.API) in 8.8801ms
+2022-08-30 15:12:08.878 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.FilesController.GetBaseStorageUrl (eTradeAPI.API)'
+2022-08-30 15:12:08.930 +03:00 [INF] ResponseBody: {"url":"https://ecommercebati.blob.core.windows.net"}
+2022-08-30 15:12:08.938 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7122/api/files/GetBaseStorageUrl - - - 200 - application/json;+charset=utf-8 85.5213ms
+2022-08-30 15:12:08.976 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/products?page=0&size=12 - -
+2022-08-30 15:12:08.982 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:12:08.989 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:12:09.001 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-30 15:12:09.010 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/products?page=0&size=12 - - - 204 - - 34.7723ms
+2022-08-30 15:12:09.040 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7122/api/products?page=0&size=12 - -
+2022-08-30 15:12:09.042 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:12:09.046 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:12:09.048 +03:00 [INF] Executing endpoint 'eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API)'
+2022-08-30 15:12:09.049 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(eTrade.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller eTradeAPI.API.controller.ProductsController (eTradeAPI.API).
+2022-08-30 15:12:09.055 +03:00 [INF] Get all products
+2022-08-30 15:12:09.056 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'eTradeAPIDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2022-08-30 15:12:09.060 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2022-08-30 15:12:09.065 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase", t0."ProductImageFilesId", t0."ProductsId"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."Path", t1."Storage", t1."Showcase", p0."ProductImageFilesId", p0."ProductsId"
+    FROM "ProductProductImageFile" AS p0
+    INNER JOIN (
+        SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase"
+        FROM "Files" AS f
+        WHERE f."Discriminator" = 'ProductImageFile'
+    ) AS t1 ON p0."ProductImageFilesId" = t1."Id"
+) AS t0 ON t."Id" = t0."ProductsId"
+ORDER BY t."Id", t0."ProductImageFilesId", t0."ProductsId"
+2022-08-30 15:12:09.072 +03:00 [INF] Executing OkObjectResult, writing value of type 'eTrade.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2022-08-30 15:12:09.076 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-30 15:12:09.078 +03:00 [INF] Executed action eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API) in 26.6363ms
+2022-08-30 15:12:09.081 +03:00 [INF] Executed endpoint 'eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API)'
+2022-08-30 15:12:09.083 +03:00 [INF] ResponseBody: {"totalProductCount":16,"products":[{"id":"0dbc0737-5a2f-42c1-ae28-f0f9a4ad7d0c","name":"test13","stock":4,"price":31,"createdDate":"2022-05-07T19:43:28.670487Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"3bd1911e-e3a0-47e3-bd56-1770bee83505","name":"test49","stock":17,"price":12,"createdDate":"2022-05-07T19:43:59.238189Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"881a7e9f-cae0-4574-bfc1-27bb90987507","name":"deneme 2","stock":1,"price":4,"createdDate":"2022-05-07T19:08:55.421604Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"9e1ad9cd-86e6-462a-9152-a5e303102b7c","name":"test63","stock":8,"price":6,"createdDate":"2022-05-07T19:44:23.527858Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"a4442043-9c1e-4f5e-9cb6-ff1a6604e6c7","name":"ürün 1","stock":1,"price":2,"createdDate":"2022-05-07T19:04:08.492469Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"wallpaper-7.jpg","path":"photo-images/wallpaper-7.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"cbbe5e3d-c7e9-48f7-a6f0-697dbc803786","createdDate":"2022-08-30T10:06:39.411042Z"}]},{"id":"b582b272-3e17-4494-bcab-2f6ac5cd2aca","name":"test12","stock":2,"price":20,"createdDate":"2022-05-07T19:43:20.725508Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"bbbd04c3-0f11-4185-b22c-d3a9a84ecc5e","name":"test60","stock":25,"price":20,"createdDate":"2022-05-07T19:44:10.295295Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":false,"products":null,"fileName":"hostDomain.PNG","path":"photo-images\\hostDomain.PNG","storage":"LocalStorage","updatedDate":"0001-01-01T00:00:00","id":"5e3725f2-381d-4735-8245-30a608147d41","createdDate":"2022-05-26T21:16:12.330767Z"}]},{"id":"be12bfba-814f-4141-b085-042f5dbefb4d","name":"Defter","stock":100,"price":5,"createdDate":"2022-04-24T07:34:38.938975Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"wallpaper-8.jpg","path":"photo-images/wallpaper-8.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"d0032748-481c-4b01-9495-6f69ab26f9ec","createdDate":"2022-08-30T12:09:56.180327Z"}]},{"id":"c4ed3ddf-5bce-4069-9a1c-e960372e1db7","name":"Kalem","stock":100,"price":15,"createdDate":"2022-04-24T07:21:24.315664Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"24323432432.PNG","path":"photo-images/24323432432.PNG","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"24f0bd3b-9ec5-4db7-8ed8-e756267bfc35","createdDate":"2022-06-04T07:28:21.009806Z"},{"showcase":false,"products":null,"fileName":"wallpaper-6.jpg","path":"photo-images/wallpaper-6.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"2d5df13c-ff5d-4a72-bbdf-3c0b08af4cab","createdDate":"2022-08-30T06:03:53.268471Z"}]},{"id":"ddbc81c2-0f1f-4456-b8ab-12510893d62d","name":"Silgi","stock":50,"price":1,"createdDate":"2022-04-24T07:34:38.938968Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"e11b06fc-d110-45b2-b29c-98ed9cbcaef1","name":"test 70","stock":7,"price":11,"createdDate":"2022-05-07T19:44:40.534865Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"f9d9fe0c-0ed9-4f73-941b-fafac7b62d41","name":"Kağıt","stock":1000,"price":5,"createdDate":"2022-04-24T07:34:38.938975Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]}]}
+2022-08-30 15:12:09.091 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7122/api/products?page=0&size=12 - - - 200 - application/json;+charset=utf-8 51.4860ms
+2022-08-30 15:18:18.605 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/files/GetBaseStorageUrl - -
+2022-08-30 15:18:18.617 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/files/GetBaseStorageUrl
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:18:18.621 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:18:18.622 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-30 15:18:18.624 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/files/GetBaseStorageUrl - - - 204 - - 19.0929ms
+2022-08-30 15:18:18.648 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7122/api/files/GetBaseStorageUrl - -
+2022-08-30 15:18:18.650 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/files/GetBaseStorageUrl
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:18:18.654 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:18:18.656 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.FilesController.GetBaseStorageUrl (eTradeAPI.API)'
+2022-08-30 15:18:18.659 +03:00 [INF] Route matched with {action = "GetBaseStorageUrl", controller = "Files"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBaseStorageUrl() on controller ETicaretAPI.API.Controllers.FilesController (eTradeAPI.API).
+2022-08-30 15:18:18.667 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-08-30 15:18:18.672 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-30 15:18:18.674 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.FilesController.GetBaseStorageUrl (eTradeAPI.API) in 6.365ms
+2022-08-30 15:18:18.676 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.FilesController.GetBaseStorageUrl (eTradeAPI.API)'
+2022-08-30 15:18:18.678 +03:00 [INF] ResponseBody: {"url":"https://ecommercebati.blob.core.windows.net"}
+2022-08-30 15:18:18.682 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7122/api/files/GetBaseStorageUrl - - - 200 - application/json;+charset=utf-8 33.2040ms
+2022-08-30 15:18:18.705 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7122/api/products?page=0&size=12 - -
+2022-08-30 15:18:18.707 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:18:18.710 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:18:18.711 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-08-30 15:18:18.712 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7122/api/products?page=0&size=12 - - - 204 - - 6.9547ms
+2022-08-30 15:18:18.716 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7122/api/products?page=0&size=12 - -
+2022-08-30 15:18:18.717 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7122
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-08-30 15:18:18.719 +03:00 [INF] CORS policy execution successful.
+2022-08-30 15:18:18.720 +03:00 [INF] Executing endpoint 'eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API)'
+2022-08-30 15:18:18.721 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(eTrade.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller eTradeAPI.API.controller.ProductsController (eTradeAPI.API).
+2022-08-30 15:18:18.723 +03:00 [INF] Get all products
+2022-08-30 15:18:18.724 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'eTradeAPIDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2022-08-30 15:18:18.792 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2022-08-30 15:18:18.801 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase", t0."ProductImageFilesId", t0."ProductsId"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."Path", t1."Storage", t1."Showcase", p0."ProductImageFilesId", p0."ProductsId"
+    FROM "ProductProductImageFile" AS p0
+    INNER JOIN (
+        SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase"
+        FROM "Files" AS f
+        WHERE f."Discriminator" = 'ProductImageFile'
+    ) AS t1 ON p0."ProductImageFilesId" = t1."Id"
+) AS t0 ON t."Id" = t0."ProductsId"
+ORDER BY t."Id", t0."ProductImageFilesId", t0."ProductsId"
+2022-08-30 15:18:18.804 +03:00 [INF] Executing OkObjectResult, writing value of type 'eTrade.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2022-08-30 15:18:18.806 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-08-30 15:18:18.807 +03:00 [INF] Executed action eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API) in 84.6901ms
+2022-08-30 15:18:18.809 +03:00 [INF] Executed endpoint 'eTradeAPI.API.controller.ProductsController.Get (eTradeAPI.API)'
+2022-08-30 15:18:18.810 +03:00 [INF] ResponseBody: {"totalProductCount":16,"products":[{"id":"0dbc0737-5a2f-42c1-ae28-f0f9a4ad7d0c","name":"test13","stock":4,"price":31,"createdDate":"2022-05-07T19:43:28.670487Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"3bd1911e-e3a0-47e3-bd56-1770bee83505","name":"test49","stock":17,"price":12,"createdDate":"2022-05-07T19:43:59.238189Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"881a7e9f-cae0-4574-bfc1-27bb90987507","name":"deneme 2","stock":1,"price":4,"createdDate":"2022-05-07T19:08:55.421604Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"9e1ad9cd-86e6-462a-9152-a5e303102b7c","name":"test63","stock":8,"price":6,"createdDate":"2022-05-07T19:44:23.527858Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"a4442043-9c1e-4f5e-9cb6-ff1a6604e6c7","name":"ürün 1","stock":1,"price":2,"createdDate":"2022-05-07T19:04:08.492469Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"wallpaper-7.jpg","path":"photo-images/wallpaper-7.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"cbbe5e3d-c7e9-48f7-a6f0-697dbc803786","createdDate":"2022-08-30T10:06:39.411042Z"}]},{"id":"b582b272-3e17-4494-bcab-2f6ac5cd2aca","name":"test12","stock":2,"price":20,"createdDate":"2022-05-07T19:43:20.725508Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"bbbd04c3-0f11-4185-b22c-d3a9a84ecc5e","name":"test60","stock":25,"price":20,"createdDate":"2022-05-07T19:44:10.295295Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":false,"products":null,"fileName":"hostDomain.PNG","path":"photo-images\\hostDomain.PNG","storage":"LocalStorage","updatedDate":"0001-01-01T00:00:00","id":"5e3725f2-381d-4735-8245-30a608147d41","createdDate":"2022-05-26T21:16:12.330767Z"}]},{"id":"be12bfba-814f-4141-b085-042f5dbefb4d","name":"Defter","stock":100,"price":5,"createdDate":"2022-04-24T07:34:38.938975Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"wallpaper-8.jpg","path":"photo-images/wallpaper-8.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"d0032748-481c-4b01-9495-6f69ab26f9ec","createdDate":"2022-08-30T12:09:56.180327Z"}]},{"id":"c4ed3ddf-5bce-4069-9a1c-e960372e1db7","name":"Kalem","stock":100,"price":15,"createdDate":"2022-04-24T07:21:24.315664Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":true,"products":null,"fileName":"24323432432.PNG","path":"photo-images/24323432432.PNG","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"24f0bd3b-9ec5-4db7-8ed8-e756267bfc35","createdDate":"2022-06-04T07:28:21.009806Z"},{"showcase":false,"products":null,"fileName":"wallpaper-6.jpg","path":"photo-images/wallpaper-6.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"2d5df13c-ff5d-4a72-bbdf-3c0b08af4cab","createdDate":"2022-08-30T06:03:53.268471Z"}]},{"id":"ddbc81c2-0f1f-4456-b8ab-12510893d62d","name":"Silgi","stock":50,"price":1,"createdDate":"2022-04-24T07:34:38.938968Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"e11b06fc-d110-45b2-b29c-98ed9cbcaef1","name":"test 70","stock":7,"price":11,"createdDate":"2022-05-07T19:44:40.534865Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"f9d9fe0c-0ed9-4f73-941b-fafac7b62d41","name":"Kağıt","stock":1000,"price":5,"createdDate":"2022-04-24T07:34:38.938975Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]}]}
+2022-08-30 15:18:18.816 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7122/api/products?page=0&size=12 - - - 200 - application/json;+charset=utf-8 100.1588ms
