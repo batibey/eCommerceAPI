@@ -14,5 +14,6 @@ namespace eTrade.Domain.Entities
 
         public ICollection<Order> Orders { get; set; }
         public ICollection<ProductImageFile> ProductImageFiles { get; set; }
+        public ICollection<BasketItem> BasketItems { get; set; }
     }
 }

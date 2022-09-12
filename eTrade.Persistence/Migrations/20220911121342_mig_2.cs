@@ -4,22 +4,23 @@
 
 namespace eTrade.Persistence.Migrations
 {
-    public partial class mig_10 : Migration
+    public partial class mig_2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<bool>(
-                name: "Showcase",
-                table: "Files",
-                type: "boolean",
-                nullable: true);
+            migrationBuilder.AddColumn<int>(
+                name: "Quantity",
+                table: "BasketItems",
+                type: "integer",
+                nullable: false,
+                defaultValue: 0);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "Showcase",
-                table: "Files");
+                name: "Quantity",
+                table: "BasketItems");
         }
     }
 }
