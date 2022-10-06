@@ -6,38 +6,18 @@ i:{00000000-0000-0000-0000-000000000000}:Infastructure
 i:{c6e93077-7db6-4935-a35a-44f2c3b63c23}:eTrade.Persistence
 i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\bin\debug\net6.0\etrade.persistence.dll
 ++Dependencies
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>968
-i:{385bca9d-f43a-4af9-9716-a75721279c41}:>969
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:>967
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1365
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:>970
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1172
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>995
+i:{385bca9d-f43a-4af9-9716-a75721279c41}:>996
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:>992
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1379
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:>993
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>994
 ++Contexts
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\contexts\
 ++eTradeAPIDBContext.cs
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\contexts\etradeapidbcontext.cs
 ++Migrations
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\
-++20220911104352_mig_1.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220911104352_mig_1.cs
-++20220911121342_mig_2.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220911121342_mig_2.cs
-++20220917055340_mig_3.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917055340_mig_3.cs
-++20220917055616_mig_4.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917055616_mig_4.cs
-++20220917055932_mig_5.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917055932_mig_5.cs
-++20220917060006_mig_6.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917060006_mig_6.cs
-++20220917085558_mig_7.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917085558_mig_7.cs
-++20220924085045_mig_8.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220924085045_mig_8.cs
-++20220927173514_mig_9.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220927173514_mig_9.cs
-++eTradeAPIDBContextModelSnapshot.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\etradeapidbcontextmodelsnapshot.cs
 ++Repositories
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\repositories\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\repositories\
@@ -87,24 +67,26 @@ i:{385bca9d-f43a-4af9-9716-a75721279c41}:projects
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:projects
 i:{c0a8e376-b009-4154-a327-5d5595856e52}:projects
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:projects
-++20220911104352_mig_1.Designer.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220911104352_mig_1.designer.cs
-++20220911121342_mig_2.Designer.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220911121342_mig_2.designer.cs
-++20220917055340_mig_3.Designer.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917055340_mig_3.designer.cs
-++20220917055616_mig_4.Designer.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917055616_mig_4.designer.cs
-++20220917055932_mig_5.Designer.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917055932_mig_5.designer.cs
-++20220917060006_mig_6.Designer.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917060006_mig_6.designer.cs
-++20220917085558_mig_7.Designer.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917085558_mig_7.designer.cs
-++20220924085045_mig_8.Designer.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220924085045_mig_8.designer.cs
-++20220927173514_mig_9.Designer.cs
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220927173514_mig_9.designer.cs
+++20220911104352_mig_1.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220911104352_mig_1.cs
+++20220911121342_mig_2.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220911121342_mig_2.cs
+++20220917055340_mig_3.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917055340_mig_3.cs
+++20220917055616_mig_4.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917055616_mig_4.cs
+++20220917055932_mig_5.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917055932_mig_5.cs
+++20220917060006_mig_6.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917060006_mig_6.cs
+++20220917085558_mig_7.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917085558_mig_7.cs
+++20220924085045_mig_8.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220924085045_mig_8.cs
+++20220927173514_mig_9.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220927173514_mig_9.cs
+++eTradeAPIDBContextModelSnapshot.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\etradeapidbcontextmodelsnapshot.cs
 ++Basket
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\repositories\basket\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\queries\basket\
@@ -194,27 +176,45 @@ i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\
 i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\microsoft.netcore.app
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\microsoft.netcore.app
 ++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.4)
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1470
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:>1378
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1449
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:>1392
 ++Microsoft.EntityFrameworkCore (6.0.4)
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1468
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1434
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1447
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1483
 ++Microsoft.EntityFrameworkCore.Tools (6.0.4)
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1474
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1453
 ++Microsoft.Extensions.Configuration (6.0.1)
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1473
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1452
 ++Microsoft.Extensions.Configuration.Json (6.0.0)
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1471
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1450
 ++Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1469
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1448
 ++Npgsql.EntityFrameworkCore.PostgreSQL (6.0.3)
-i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1472
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:>1451
 ++eTrade.Application
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\bin\debug\net6.0\etrade.application.dll
 i:{385bca9d-f43a-4af9-9716-a75721279c41}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\bin\debug\net6.0\etrade.application.dll
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\bin\debug\net6.0\etrade.application.dll
 i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\bin\debug\net6.0\etrade.application.dll
 i:{8d0328d9-3817-4c6a-b4a7-f526abd92eb2}:eTrade.Application
+++20220911104352_mig_1.Designer.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220911104352_mig_1.designer.cs
+++20220911121342_mig_2.Designer.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220911121342_mig_2.designer.cs
+++20220917055340_mig_3.Designer.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917055340_mig_3.designer.cs
+++20220917055616_mig_4.Designer.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917055616_mig_4.designer.cs
+++20220917055932_mig_5.Designer.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917055932_mig_5.designer.cs
+++20220917060006_mig_6.Designer.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917060006_mig_6.designer.cs
+++20220917085558_mig_7.Designer.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220917085558_mig_7.designer.cs
+++20220924085045_mig_8.Designer.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220924085045_mig_8.designer.cs
+++20220927173514_mig_9.Designer.cs
+i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\migrations\20220927173514_mig_9.designer.cs
 ++BasketReadRepository.cs
 i:{8a5fc480-054e-4047-a04b-61af153a44f0}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.persistence\repositories\basket\basketreadrepository.cs
 ++BasketWriteRepository.cs
@@ -268,7 +268,7 @@ i:{385bca9d-f43a-4af9-9716-a75721279c41}:c:\users\mustafabati\desktop\etradeapp\
 ++ProductHubService.cs
 i:{385bca9d-f43a-4af9-9716-a75721279c41}:c:\users\mustafabati\desktop\etradeapp\etradeapi\infrastucture\etrade.signalr\hubservices\producthubservice.cs
 ++Microsoft.AspNetCore.App (2.2.8)
-i:{385bca9d-f43a-4af9-9716-a75721279c41}:>1390
+i:{385bca9d-f43a-4af9-9716-a75721279c41}:>1433
 ++eTrade.Infastucture
 i:{c6e93077-7db6-4935-a35a-44f2c3b63c23}:eTrade.Infastucture
 i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\bin\debug\net6.0\etrade.infastucture.dll
@@ -293,9 +293,9 @@ i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\
 ++FileService.cs
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\services\fileservice.cs
 ++Azure.Storage.Blobs (12.12.0)
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:>1453
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:>1467
 ++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.5)
-i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:>1454
+i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:>1468
 i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1414
 ++Azure
 i:{8b4bc10d-7f41-4fd6-9fe7-5f44756f28b4}:c:\users\mustafabati\desktop\etradeapp\etradeapi\etrade.infastucture\services\storage\azure\
@@ -318,7 +318,7 @@ i:{00000000-0000-0000-0000-000000000000}:Presentation
 ++eTradeAPI.API
 i:{ea3cc135-f53e-44b0-9065-158221613eca}:eTradeAPI.API
 ++Connected Services 
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1366
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1380
 ++Properties
 i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\properties\
 ++wwwroot
@@ -350,7 +350,7 @@ i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\
 ++Program.cs
 i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\program.cs
 ++No service dependencies discovered
-i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1367
+i:{c0a8e376-b009-4154-a327-5d5595856e52}:>1381
 ++launchSettings.json
 i:{c0a8e376-b009-4154-a327-5d5595856e52}:c:\users\mustafabati\desktop\etradeapp\etradeapi\presentation\etrade.api\properties\launchsettings.json
 ++photo-images
@@ -456,14 +456,14 @@ i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\
 i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\entities\product.cs
 ++ProductImageFile.cs
 i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\entities\productimagefile.cs
+++Microsoft.AspNetCore.Identity (2.2.0)
+i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:>1391
 ++BaseEntity.cs
 i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\entities\common\baseentity.cs
 ++AppRole.cs
 i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\entities\identity\approle.cs
 ++AppUser.cs
 i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.domain\entities\identity\appuser.cs
-++Microsoft.AspNetCore.Identity (2.2.0)
-i:{b727b49f-42f5-43f3-a36f-334ae9c54b5a}:>1377
 ++Abstraction
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\
 ++DTOs
@@ -484,14 +484,6 @@ i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\
 ++Queries
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\queries\
-++GetBasketItems
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\queries\basket\getbasketitems\
-++GetBasketItemQueryHandler.cs
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\queries\basket\getbasketitems\getbasketitemqueryhandler.cs
-++GetBasketItemQueryRequest.cs
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\queries\basket\getbasketitems\getbasketitemqueryrequest.cs
-++GetBasketItemQueryResponse.cs
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\queries\basket\getbasketitems\getbasketitemqueryresponse.cs
 ++GetAllOrdersQueryHandler.cs
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\queries\order\getallordersqueryhandler.cs
 ++GetAllOrdersQueryRequest.cs
@@ -508,16 +500,6 @@ i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\validators\
 ++ViewModels
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\viewmodels\
-++Authentication
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\authentication\
-++IAuthService.cs
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\iauthservice.cs
-++IBasketService.cs
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\ibasketservice.cs
-++IOrderService.cs
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\iorderservice.cs
-++IUserService.cs
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\iuserservice.cs
 ++CreateUser.cs
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\dtos\user\createuser.cs
 ++CreateUserResponse.cs
@@ -530,6 +512,8 @@ i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\exceptions\usercreatefailedexception.cs
 ++AppUser
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\appuser\
+++GetBasketItems
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\queries\basket\getbasketitems\
 ++GetAllProduct
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\queries\product\getallproduct\
 ++GetByIdProduct
@@ -550,25 +534,31 @@ i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\
 ++Baskets
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\viewmodels\baskets\
 ++FluentValidation (10.4.0)
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1437
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1486
 ++FluentValidation.AspNetCore (10.4.0)
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1435
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1484
 ++FluentValidation.DependencyInjectionExtensions (10.4.0)
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1433
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1482
 ++MediatR (10.0.1)
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1436
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1485
 ++MediatR.Extensions.Microsoft.DependencyInjection (10.0.1)
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1439
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1488
 ++Microsoft.AspNetCore.Http (2.2.2)
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1438
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:>1487
 ++IOrderHubService.cs
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\hubs\iorderhubservice.cs
 ++IProductHubService.cs
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\hubs\iproducthubservice.cs
-++IExternalAuthentication.cs
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\authentication\iexternalauthentication.cs
-++IInternalAuthentication.cs
-i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\authentication\iinternalauthentication.cs
+++Authentication
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\authentication\
+++IAuthService.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\iauthservice.cs
+++IBasketService.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\ibasketservice.cs
+++IOrderService.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\iorderservice.cs
+++IUserService.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\iuserservice.cs
 ++IStorage.cs
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\storage\istorage.cs
 ++IStorageService.cs
@@ -601,6 +591,12 @@ i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\productimagefile\removeproductimage\
 ++UploadProductImage
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\commands\productimagefile\uploadproductimage\
+++GetBasketItemQueryHandler.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\queries\basket\getbasketitems\getbasketitemqueryhandler.cs
+++GetBasketItemQueryRequest.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\queries\basket\getbasketitems\getbasketitemqueryrequest.cs
+++GetBasketItemQueryResponse.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\queries\basket\getbasketitems\getbasketitemqueryresponse.cs
 ++GetAllProductQueryHandler.cs
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\features\queries\product\getallproduct\getallproductqueryhandler.cs
 ++GetAllProductQueryRequest.cs
@@ -661,6 +657,10 @@ i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\viewmodels\products\vm_create_product.cs
 ++VM_Update_Product.cs
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\viewmodels\products\vm_update_product.cs
+++IExternalAuthentication.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\authentication\iexternalauthentication.cs
+++IInternalAuthentication.cs
+i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\services\authentication\iinternalauthentication.cs
 ++IAzureStorage.cs
 i:{34611bd1-f751-4fce-864e-330e9b06b420}:c:\users\mustafabati\desktop\etradeapp\etradeapi\core\etrade.application\abstraction\storage\azure\iazurestorage.cs
 ++ILocalStorage.cs
