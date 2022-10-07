@@ -1,4 +1,5 @@
-﻿using eTrade.Application.Abstraction.Storage;
+﻿using eTrade.Application.Abstraction.Services;
+using eTrade.Application.Abstraction.Storage;
 using eTrade.Application.Abstraction.Token;
 using eTrade.Infastucture.Enums;
 using eTrade.Infastucture.Services;
@@ -21,6 +22,7 @@ namespace eTrade.Infastucture
         {
             serviceCollection.AddScoped<IStorageService, StorageService>();
             serviceCollection.AddScoped<ITokenHandler, TokenHandler>();
+            serviceCollection.AddScoped<IMailService, MailService>();
         }
         public static void AddStorage<T>(this IServiceCollection serviceCollection) where T : Storage, IStorage
         {
