@@ -12,6 +12,7 @@ using eTrade.Domain.Entities.Identity;
 using eTrade.Application.Abstraction.Services;
 using eTrade.Persistence.Services;
 using eTrade.Application.Abstraction.Services.Authentication;
+using Microsoft.AspNetCore.Identity;
 
 namespace eTrade.Persistence
 {
@@ -27,8 +28,8 @@ namespace eTrade.Persistence
                 options.Password.RequireDigit = false;
                 options.Password.RequireLowercase = false;
                 options.Password.RequireUppercase = false;
-                
-            }).AddEntityFrameworkStores<eTradeAPIDBContext>();
+            }).AddEntityFrameworkStores<eTradeAPIDBContext>()
+            .AddDefaultTokenProviders();
 
             services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
             services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
@@ -47,10 +48,11 @@ namespace eTrade.Persistence
             services.AddScoped<IBasketReadRepository, BasketReadRepository>();
             services.AddScoped<IBasketWriteRepository, BasketWriteRepository>();
 
+
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IAuthService, AuthService>();
-            services.AddScoped<IInternalAuthentication, AuthService>();
             services.AddScoped<IExternalAuthentication, AuthService>();
+            services.AddScoped<IInternalAuthentication, AuthService>();
             services.AddScoped<IBasketService, BasketService>();
             services.AddScoped<IOrderService, OrderService>();
         }
