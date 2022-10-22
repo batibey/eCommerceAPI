@@ -24,6 +24,7 @@ namespace eTrade.Persistence.Contexts
         public DbSet<InvoiceFile> InvoiceFiles { get; set; }
         public DbSet<Basket> Baskets { get; set; }
         public DbSet<BasketItem> BasketItems { get; set; }
+        public DbSet<CompletedOrder> CompletedOrders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -38,6 +39,11 @@ namespace eTrade.Persistence.Contexts
                 .HasOne(b => b.Order)
                 .WithOne(b => b.Basket)
                 .HasForeignKey<Order>(b => b.Id);
+
+            builder.Entity<Order>()
+                .HasOne(o => o.CompletedOrder)
+                .WithOne(c => c.Order)
+                .HasForeignKey<CompletedOrder>(o => o.OrderId);
 
             base.OnModelCreating(builder);
         }
