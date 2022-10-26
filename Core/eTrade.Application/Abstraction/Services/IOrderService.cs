@@ -13,6 +13,6 @@ namespace eTrade.Application.Abstraction.Services
         Task<ListOrder> GetAllOrdersAsync(int page, int size);
         Task<SingleOrder> GetOrderByIdAsync(string id);
 
-        Task CompleteOrderAsync(string id);
+        Task<(bool, CompletedOrderDTO)> CompleteOrderAsync(string id);
     }
 }

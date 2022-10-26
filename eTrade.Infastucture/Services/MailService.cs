@@ -19,6 +19,7 @@ namespace eTrade.Infastucture.Services
             _configuration = configuration;
         }
 
+
         public async Task SendMailAsync(string to, string subject, string body, bool isBodyHtml = true)
         {
             await SendMailAsync(new[] { to }, subject, body, isBodyHtml);
@@ -54,6 +55,13 @@ namespace eTrade.Infastucture.Services
             mail.AppendLine("\">Yeni şifre talebi için tıklayınız...</a></strong><br><br><span style=\"font-size:12px;\">NOT : Eğer ki bu talep tarafınızca gerçekleştirilmemişse lütfen bu maili ciddiye almayınız.</span><br>Saygılarımızla...<br><br><br>BT - E-Commerce");
 
             await SendMailAsync(to, "Şifre Yenileme Talebi", mail.ToString());
+        }
+        public async Task SendCompletedOrderMailAsync(string to, string orderCode, DateTime orderDate, string userName)
+        {
+            string mail = $"Sayın {userName} Merhaba<br>" +
+                $"{orderDate} tarihinde vermiş olduğunuz {orderCode} numaralı siparişiniz tamamlandı ve kargo firmasına verilmiştir. İyi günler dileriz.";
+
+            await SendMailAsync(to, $"{orderCode} numaralı siparişiniz tamamlandı", mail);
         }
     }
 }
