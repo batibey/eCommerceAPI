@@ -1,4 +1,7 @@
-﻿using eTrade.Application.Features.Commands.Order.CompleteOrder;
+﻿using eTrade.Application.Consts;
+using eTrade.Application.CustomAttributes;
+using eTrade.Application.Enums;
+using eTrade.Application.Features.Commands.Order.CompleteOrder;
 using eTrade.Application.Features.Commands.Order.CreateOrder;
 using eTrade.Application.Features.Queries.Order;
 using eTrade.Application.Features.Queries.Order.GetOrderById;
@@ -21,6 +24,7 @@ namespace eTradeAPI.API.controller
         }
 
         [HttpGet("{Id}")]
+        [AuthorizeDefination(Menu = AuthorizeDefinationConstants.Orders, ActionType = ActionType.Reading, Defination = "Get Order By Id")]
         public async Task<ActionResult> GetOrderById([FromRoute] GetOrderByIdQueryRequest getOrderByIdQueryRequest)
         {
             GetOrderByIdQueryResponse response = await _mediator.Send(getOrderByIdQueryRequest);
@@ -28,6 +32,7 @@ namespace eTradeAPI.API.controller
         }
 
         [HttpGet]
+        [AuthorizeDefination(Menu = AuthorizeDefinationConstants.Orders, ActionType = ActionType.Reading, Defination = "Get All Orders")]
         public async Task<ActionResult> GetAllOrders([FromQuery] GetAllOrdersQueryRequest getAllOrdersQueryRequest)
         {
             GetAllOrdersQueryResponse response = await _mediator.Send(getAllOrdersQueryRequest);
@@ -35,6 +40,7 @@ namespace eTradeAPI.API.controller
         }
 
         [HttpPost]
+        [AuthorizeDefination(Menu = AuthorizeDefinationConstants.Orders, ActionType = ActionType.Writing, Defination = "Create Order")]
         public async Task<ActionResult> CreateOrder(CreateOrderCommandRequest createOrderCommandRequest)
         {
             CreateOrderCommandResponse response = await _mediator.Send(createOrderCommandRequest);
@@ -42,6 +48,7 @@ namespace eTradeAPI.API.controller
         }
 
         [HttpGet("complete-order/{Id}")]
+        [AuthorizeDefination(Menu = AuthorizeDefinationConstants.Orders, ActionType = ActionType.Updating, Defination = "Update Order")]
         public async Task<ActionResult> CompletedOrder([FromRoute] CompleteOrderCommandRequest completeOrderCommandRequest)
         {
             CompleteOrderCommandResponse response = await _mediator.Send(completeOrderCommandRequest);
