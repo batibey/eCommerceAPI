@@ -38,18 +38,18 @@ namespace eTrade.Persistence.Services
                 query.Count());
         }
 
-        //public async Task<(string id, string name)> GetRoleById(string id)
-        //{
-        //    string role = await _roleManager.GetRoleIdAsync(new() { Id = id });
-        //    return (id, role);
-        //}
+        public async Task<(string id, string name)> GetRoleById(string id)
+        {
+            string role = await _roleManager.GetRoleIdAsync(new() { Id = id });
+            return (id, role);
+        }
 
-        //public async Task<bool> UpdateRole(string id, string name)
-        //{
-        //    AppRole role = await _roleManager.FindByIdAsync(id);
-        //    role.Name = name;
-        //    IdentityResult result = await _roleManager.UpdateAsync(role);
-        //    return result.Succeeded;
-        //}
+        public async Task<bool> UpdateRole(string id, string name)
+        {
+            AppRole role = await _roleManager.FindByIdAsync(id);
+            role.Name = name;
+            IdentityResult result = await _roleManager.UpdateAsync(role);
+            return result.Succeeded;
+        }
     }
 }
