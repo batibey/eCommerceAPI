@@ -49,6 +49,10 @@ namespace eTrade.Persistence
             services.AddScoped<IBasketWriteRepository, BasketWriteRepository>();
             services.AddScoped<ICompletedOrderReadRepository, CompletedOrderReadRepository>();
             services.AddScoped<ICompletedOrderWriteRepository, CompletedOrderWriteRepository>();
+            services.AddScoped<IEndpointReadRepository, EndPointReadRepository>();
+            services.AddScoped<IEndpointWriteRepository, EndPointWriteRepository>();
+            services.AddScoped<IMenuWriteRepository, MenuWriteRepository>();
+            services.AddScoped<IMenuReadRepository, MenuReadRepository>();
 
 
             services.AddScoped<IUserService, UserService>();
@@ -58,6 +62,7 @@ namespace eTrade.Persistence
             services.AddScoped<IBasketService, BasketService>();
             services.AddScoped<IOrderService, OrderService>();
             services.AddScoped<IRoleService, RoleService>();
+            services.AddScoped<IAuthorizationEndpointService, AuthorizationEndpointService>();
         }
     }
 }

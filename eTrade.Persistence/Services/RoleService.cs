@@ -34,7 +34,13 @@ namespace eTrade.Persistence.Services
         public (object, int) GetAllRoles(int page, int size)
         {
             var query = _roleManager.Roles;
-            return (query.Skip(page * size).Take(size).Select(r => new { r.Id, r.Name }),
+            IQueryable<AppRole> rolesQuery = null;
+
+            if (page != -1 || size != -1)
+                rolesQuery = query.Skip(page * size).Take(size);
+            else
+                rolesQuery = query;
+            return (rolesQuery.Select(r => new { r.Id, r.Name }),
                 query.Count());
         }
 

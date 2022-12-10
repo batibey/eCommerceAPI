@@ -22,6 +22,21 @@ namespace eTrade.Persistence.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("AppRoleEndpoint", b =>
+                {
+                    b.Property<string>("AppRolesId")
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("EndpointsId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("AppRolesId", "EndpointsId");
+
+                    b.HasIndex("EndpointsId");
+
+                    b.ToTable("AppRoleEndpoint");
+                });
+
             modelBuilder.Entity("eTrade.Domain.Entities.Basket", b =>
                 {
                     b.Property<Guid>("Id")
@@ -117,6 +132,44 @@ namespace eTrade.Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Customers");
+                });
+
+            modelBuilder.Entity("eTrade.Domain.Entities.Endpoint", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ActionType")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Definition")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("HttpType")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("MenuId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MenuId");
+
+                    b.ToTable("Endpoints");
                 });
 
             modelBuilder.Entity("eTrade.Domain.Entities.File", b =>
@@ -249,6 +302,27 @@ namespace eTrade.Persistence.Migrations
                         .HasDatabaseName("UserNameIndex");
 
                     b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("eTrade.Domain.Entities.Menu", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Menus");
                 });
 
             modelBuilder.Entity("eTrade.Domain.Entities.Order", b =>
@@ -450,6 +524,21 @@ namespace eTrade.Persistence.Migrations
                     b.HasDiscriminator().HasValue("ProductImageFile");
                 });
 
+            modelBuilder.Entity("AppRoleEndpoint", b =>
+                {
+                    b.HasOne("eTrade.Domain.Entities.Identity.AppRole", null)
+                        .WithMany()
+                        .HasForeignKey("AppRolesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("eTrade.Domain.Entities.Endpoint", null)
+                        .WithMany()
+                        .HasForeignKey("EndpointsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("eTrade.Domain.Entities.Basket", b =>
                 {
                     b.HasOne("eTrade.Domain.Entities.Identity.AppUser", "User")
@@ -489,6 +578,17 @@ namespace eTrade.Persistence.Migrations
                         .IsRequired();
 
                     b.Navigation("Order");
+                });
+
+            modelBuilder.Entity("eTrade.Domain.Entities.Endpoint", b =>
+                {
+                    b.HasOne("eTrade.Domain.Entities.Menu", "Menu")
+                        .WithMany("EndPoints")
+                        .HasForeignKey("MenuId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Menu");
                 });
 
             modelBuilder.Entity("eTrade.Domain.Entities.Order", b =>
@@ -579,6 +679,11 @@ namespace eTrade.Persistence.Migrations
             modelBuilder.Entity("eTrade.Domain.Entities.Identity.AppUser", b =>
                 {
                     b.Navigation("Baskets");
+                });
+
+            modelBuilder.Entity("eTrade.Domain.Entities.Menu", b =>
+                {
+                    b.Navigation("EndPoints");
                 });
 
             modelBuilder.Entity("eTrade.Domain.Entities.Order", b =>
