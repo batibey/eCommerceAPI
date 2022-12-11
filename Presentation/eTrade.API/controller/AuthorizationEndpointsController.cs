@@ -1,4 +1,5 @@
 ﻿using eTrade.Application.Features.Commands.AuthorizationEndpoint.AssignRoleEndpoint;
+using eTrade.Application.Features.Queries.GetRolesToEndpoint;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -16,10 +17,11 @@ namespace eTradeAPI.API.controller
             _mediator = mediator;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetRolesToEndpoints()
+        [HttpPost("[action]")]
+        public async Task<IActionResult> GetRolesToEndpoint(GetRolesToEndpointQueryRequest rolesToEndpointQueryRequest)
         {
-            return Ok(); // simdilik hata vermemesi icin yaptim
+            GetRolesToEndpointQueryResponse response = await _mediator.Send(rolesToEndpointQueryRequest);
+            return Ok(response);
         }
 
         [HttpPost]

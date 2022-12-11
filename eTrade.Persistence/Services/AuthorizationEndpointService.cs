@@ -21,7 +21,12 @@ namespace eTrade.Persistence.Services
         readonly IMenuReadRepository _menuReadRepository;
         readonly IMenuWriteRepository _menuWriteRepository;
         readonly RoleManager<AppRole> _roleManager;
-        public AuthorizationEndpointService(IApplicationService applicationService, IEndpointReadRepository endpointReadRepository, IEndpointWriteRepository endpointWriteRepository, IMenuReadRepository menuReadRepository, IMenuWriteRepository menuWriteRepository, RoleManager<AppRole> roleManager)
+        public AuthorizationEndpointService(IApplicationService applicationService,
+            IEndpointReadRepository endpointReadRepository,
+            IEndpointWriteRepository endpointWriteRepository,
+            IMenuReadRepository menuReadRepository,
+            IMenuWriteRepository menuWriteRepository,
+            RoleManager<AppRole> roleManager)
         {
             _applicationService = applicationService;
             _endpointReadRepository = endpointReadRepository;
@@ -51,8 +56,8 @@ namespace eTrade.Persistence.Services
             if (endpoint == null)
             {
                 var action = _applicationService.GetAuthorizeDefinationEndpoints(type)
-                    .FirstOrDefault(e => e.Name == menu)
-                    ?.Actions.FirstOrDefault(e => e.Code == code);
+                        .FirstOrDefault(m => m.Name == menu)
+                        ?.Actions.FirstOrDefault(e => e.Code == code);
 
                 endpoint = new()
                 {
@@ -65,16 +70,29 @@ namespace eTrade.Persistence.Services
                 };
 
                 await _endpointWriteRepository.AddAsync(endpoint);
-
                 await _endpointWriteRepository.SaveAsync();
             }
+
             foreach (var role in endpoint.Roles)
                 endpoint.Roles.Remove(role);
 
             var appRoles = await _roleManager.Roles.Where(r => roles.Contains(r.Name)).ToListAsync();
+
             foreach (var role in appRoles)
                 endpoint.Roles.Add(role);
+
             await _endpointWriteRepository.SaveAsync();
+        }
+
+        public async Task<List<string>> GetRolesToEndpointAsync(string code, string menu)
+        {
+            Endpoint? endpoint = await _endpointReadRepository.Table
+                .Include(e => e.Roles)
+                .Include(e => e.Menu)
+                .FirstOrDefaultAsync(e => e.Code == code && e.Menu.Name == menu);
+            if (endpoint != null)
+                return endpoint.Roles.Select(r => r.Name).ToList();
+            return null;
         }
     }
 }
