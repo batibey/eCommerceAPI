@@ -4,6 +4,7 @@ using eTrade.Application.Exceptions;
 using eTrade.Application.Helpers;
 using eTrade.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,9 @@ namespace eTrade.Persistence.Services
     public class UserService : IUserService
     {
         readonly UserManager<Domain.Entities.Identity.AppUser> _userManager;
+
+
+
         public UserService(UserManager<AppUser> userManager)
         {
             _userManager = userManager;
@@ -64,5 +68,23 @@ namespace eTrade.Persistence.Services
                     throw new PasswordChangeFailedException();
             }
         }
+
+        public async Task<List<ListUser>> GetAllUsersAsync(int page, int size)
+        {
+            var users = await _userManager.Users.Skip(page * size)
+                .Take(size)
+                .ToListAsync();
+
+            return users.Select(user => new ListUser
+            {
+                Id = user.Id,
+                Email = user.Email,
+                NameSurname = user.NameSurname,
+                TwoFactorEnabled = user.TwoFactorEnabled,
+                UserName = user.UserName
+            }).ToList();
+        }
+
+        public int TotalUsersCount => _userManager.Users.Count();
     }
 }

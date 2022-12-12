@@ -1,8 +1,12 @@
 ﻿using eTrade.Application.Abstraction.Services;
+using eTrade.Application.CustomAttributes;
+using eTrade.Application.Enums;
 using eTrade.Application.Features.Commands.AppUser.CreateUser;
 using eTrade.Application.Features.Commands.AppUser.LoginUser;
 using eTrade.Application.Features.Commands.AppUser.UpdatePassword;
+using eTrade.Application.Features.Queries.AppUser;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -30,6 +34,15 @@ namespace eTradeAPI.API.controller
         public async Task<IActionResult> UpdatePassword([FromBody] UpdatePasswordCommandRequest updatePasswordCommandRequest)
         {
             UpdatePasswordCommandResponse response = await _mediator.Send(updatePasswordCommandRequest);
+            return Ok(response);
+        }
+
+        [HttpGet]
+        [Authorize(AuthenticationSchemes = "Admin")]
+        [AuthorizeDefination(ActionType = ActionType.Reading, Defination = "Get All Users", Menu = "Users")]
+        public async Task<IActionResult> GetAllUsers([FromQuery] GetAllUsersQueryRequest getAllUsersQueryRequest)
+        {
+            GetAllUsersQueryResponse response = await _mediator.Send(getAllUsersQueryRequest);
             return Ok(response);
         }
     }
