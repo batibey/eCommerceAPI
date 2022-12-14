@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using eTrade.Application.Abstraction.Services;
+using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,18 @@ namespace eTrade.Application.Features.Commands.AppUser.AssignRoleToUser
 {
     public class AssignRoleToUserCommandHandler : IRequestHandler<AssignRoleToUserCommandRequest, AssignRoleToUserCommandResponse>
     {
-        public Task<AssignRoleToUserCommandResponse> Handle(AssignRoleToUserCommandRequest request, CancellationToken cancellationToken)
+
+        readonly IUserService _userService;
+
+        public AssignRoleToUserCommandHandler(IUserService userService)
         {
-            throw new NotImplementedException();
+            _userService = userService;
+        }
+
+        public async Task<AssignRoleToUserCommandResponse> Handle(AssignRoleToUserCommandRequest request, CancellationToken cancellationToken)
+        {
+            await _userService.AssignRoleToUserAsync(request.UserId, request.Roles);
+            return new();
         }
     }
 }

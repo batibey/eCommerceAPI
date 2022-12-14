@@ -1,9 +1,12 @@
 ﻿using eTrade.Application.Abstraction.Services;
 using eTrade.Application.CustomAttributes;
+using eTrade.Application.DTOs.Configuration;
 using eTrade.Application.Enums;
+using eTrade.Application.Features.Commands.AppUser.AssignRoleToUser;
 using eTrade.Application.Features.Commands.AppUser.CreateUser;
 using eTrade.Application.Features.Commands.AppUser.UpdatePassword;
 using eTrade.Application.Features.Queries.AppUser.GetAllUsers;
+using eTrade.Application.Features.Queries.AppUser.GetRolesToUser;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -45,10 +48,22 @@ namespace eTradeAPI.API.controller
             return Ok(response);
         }
 
-        [HttpPost("assign-role-to-user")]
-        public async Task<IActionResult> AssignRoleToUser()
+        [HttpGet("get-roles-to-user/{UserId}")]
+        [Authorize(AuthenticationSchemes = "Admin")]
+        [AuthorizeDefination(ActionType = ActionType.Reading, Defination = "Get Roles To Users", Menu = "Users")]
+        public async Task<IActionResult> GetRolesToUser([FromRoute] GetRolesToUserQueryRequest getRolesToUserQueryRequest)
         {
-            return Ok();
+            GetRolesToUserQueryResponse response = await _mediator.Send(getRolesToUserQueryRequest);
+            return Ok(response);
+        }
+
+        [HttpPost("assign-role-to-user")]
+        [Authorize(AuthenticationSchemes = "Admin")]
+        [AuthorizeDefination(ActionType = ActionType.Reading, Defination = "Assign Role To User", Menu = "Users")]
+        public async Task<IActionResult> AssignRoleToUser(AssignRoleToUserCommandRequest assignRoleToUserCommandRequest)
+        {
+            AssignRoleToUserCommandResponse response = await _mediator.Send(assignRoleToUserCommandRequest);
+            return Ok(response);
         }
     }
 }

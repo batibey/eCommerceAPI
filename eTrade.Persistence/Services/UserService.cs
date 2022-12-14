@@ -85,6 +85,33 @@ namespace eTrade.Persistence.Services
             }).ToList();
         }
 
+        
+
         public int TotalUsersCount => _userManager.Users.Count();
+
+        public async Task AssignRoleToUserAsync(string userId, string[] roles)
+        {
+            AppUser user = await _userManager.FindByIdAsync(userId);
+
+            if(user != null)
+            {
+                var userRoles = await _userManager.GetRolesAsync(user);
+                await _userManager.RemoveFromRolesAsync(user, userRoles);
+
+                await _userManager.AddToRolesAsync(user, roles);
+            }
+        }
+
+        public async Task<string[]> GetRolesToUserAsync(string userId)
+        {
+            AppUser user = await _userManager.FindByIdAsync(userId);
+
+            if(user != null)
+            {
+                var userRoles = await _userManager.GetRolesAsync(user);
+                return userRoles.ToArray();
+            }
+            return Array.Empty<string>();
+        }
     }
 }
