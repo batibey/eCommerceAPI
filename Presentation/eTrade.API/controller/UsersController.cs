@@ -2,9 +2,8 @@
 using eTrade.Application.CustomAttributes;
 using eTrade.Application.Enums;
 using eTrade.Application.Features.Commands.AppUser.CreateUser;
-using eTrade.Application.Features.Commands.AppUser.LoginUser;
 using eTrade.Application.Features.Commands.AppUser.UpdatePassword;
-using eTrade.Application.Features.Queries.AppUser;
+using eTrade.Application.Features.Queries.AppUser.GetAllUsers;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -44,6 +43,12 @@ namespace eTradeAPI.API.controller
         {
             GetAllUsersQueryResponse response = await _mediator.Send(getAllUsersQueryRequest);
             return Ok(response);
+        }
+
+        [HttpPost("assign-role-to-user")]
+        public async Task<IActionResult> AssignRoleToUser()
+        {
+            return Ok();
         }
     }
 }

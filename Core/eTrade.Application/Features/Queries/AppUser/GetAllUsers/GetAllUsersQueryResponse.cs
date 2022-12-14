@@ -1,4 +1,4 @@
-﻿namespace eTrade.Application.Features.Queries.AppUser
+﻿namespace eTrade.Application.Features.Queries.AppUser.GetAllUsers
 {
     public class GetAllUsersQueryResponse
     {
