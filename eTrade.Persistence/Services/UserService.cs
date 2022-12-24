@@ -105,9 +105,11 @@ namespace eTrade.Persistence.Services
             }
         }
 
-        public async Task<string[]> GetRolesToUserAsync(string userId)
+        public async Task<string[]> GetRolesToUserAsync(string userIdOrName)
         {
-            AppUser user = await _userManager.FindByIdAsync(userId);
+            AppUser user = await _userManager.FindByIdAsync(userIdOrName);
+            if(user == null)
+                user = await _userManager.FindByNameAsync(userIdOrName);
 
             if(user != null)
             {
