@@ -10,11 +10,6 @@ using eTrade.Infastucture.Services.Storage.Local;
 using eTrade.Infastucture.Services.Storage.Local.Azure;
 using eTrade.Infastucture.Services.Token;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace eTrade.Infastucture
 {
@@ -26,6 +21,7 @@ namespace eTrade.Infastucture
             serviceCollection.AddScoped<ITokenHandler, TokenHandler>();
             serviceCollection.AddScoped<IMailService, MailService>();
             serviceCollection.AddScoped<IApplicationService, ApplicationService>();
+            serviceCollection.AddScoped<IQRCodeService, QRCodeService>();
         }
         public static void AddStorage<T>(this IServiceCollection serviceCollection) where T : Storage, IStorage
         {

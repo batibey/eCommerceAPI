@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "g2CBi+tmJQHtrRkk2YZokouzkz2WfuT2Q5g/C+J2xgT3rDet3IuoJnqlAiamQ4iDHA7+5O5/YrdmlqOB2mBLGg==",
+  "dgSpecHash": "El5fEYeDugl+A3LZ9pjhKKUFJWxqYkz9v1Q8abU40S2CXcOLD0z7Zn+PB6OFPmYfyB6j9fwj+aeL2kDJGy8bwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\eTrade.Infastucture\\eTrade.Infastucture.csproj",
   "expectedPackageFiles": [
@@ -60,6 +60,7 @@
     "C:\\Users\\mustafabati\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\mustafabati\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

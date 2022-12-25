@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O0TtScFLIoq4KeosKF1EisfYpi7TI09ZrcyA0UXw14G0jsBxngJTnKodnM0X/DlGKm3w4T00vi0hv2dsOR7vwQ==",
+  "dgSpecHash": "u9Wyn5mckghbMfSXyqwPY0Eidmk4oEGIkAM36rzvNnd3slfgoT68lDpVeUFWc/ybFhNKpA6FFZTxbqGS8I0q8Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\mustafabati\\Desktop\\eTradeApp\\eTradeAPI\\Presentation\\eTrade.API\\eTradeAPI.API.csproj",
   "expectedPackageFiles": [
@@ -75,6 +75,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\npgsql\\6.0.3\\npgsql.6.0.3.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.3\\npgsql.entityframeworkcore.postgresql.6.0.3.nupkg.sha512",
+    "C:\\Users\\mustafabati\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\serilog\\2.11.0\\serilog.2.11.0.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\serilog.aspnetcore\\6.0.1\\serilog.aspnetcore.6.0.1.nupkg.sha512",
     "C:\\Users\\mustafabati\\.nuget\\packages\\serilog.extensions.hosting\\5.0.1\\serilog.extensions.hosting.5.0.1.nupkg.sha512",

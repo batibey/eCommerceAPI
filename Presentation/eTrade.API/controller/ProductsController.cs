@@ -1,4 +1,5 @@
-﻿using eTrade.Application.Abstraction.Storage;
+﻿using eTrade.Application.Abstraction.Services;
+using eTrade.Application.Abstraction.Storage;
 using eTrade.Application.Consts;
 using eTrade.Application.CustomAttributes;
 using eTrade.Application.Enums;
@@ -11,14 +12,9 @@ using eTrade.Application.Features.Commands.ProductImageFile.UploadProductImage;
 using eTrade.Application.Features.Queries.Product.GetAllProduct;
 using eTrade.Application.Features.Queries.Product.GetByIdProduct;
 using eTrade.Application.Features.Queries.ProductImageFile.GetProductImages;
-using eTrade.Application.Repositories;
-using eTrade.Application.RequestParameters;
-using eTrade.Application.ViewModels.Products;
-using eTrade.Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using System.Net;
 
 namespace eTradeAPI.API.controller
@@ -28,17 +24,28 @@ namespace eTradeAPI.API.controller
     public class ProductsController : ControllerBase
     {
         readonly IMediator _mediator;
+        readonly ILogger<ProductsController> _logger;
+        readonly IProductService _productService;
 
-        public ProductsController(IMediator mediator)
+        public ProductsController(IMediator mediator, ILogger<ProductsController> logger, IProductService productService)
         {
             _mediator = mediator;
+            _logger = logger;
+            _productService = productService;
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get([FromQuery]GetAllProductQueryRequest getAllProductQueryRequest)
+        public async Task<IActionResult> Get([FromQuery] GetAllProductQueryRequest getAllProductQueryRequest)
         {
             GetAllProductQueryResponse response = await _mediator.Send(getAllProductQueryRequest);
             return Ok(response);
+        }
+
+        [HttpGet("qrcode/{productId}")]
+        public async Task<IActionResult> GetQrCodeToProduct([FromRoute] string productId)
+        {
+            var data = await _productService.QrCodeToProductAsync(productId);
+            return File(data, "image/png");
         }
 
         [HttpGet("{Id}")]
@@ -96,7 +103,7 @@ namespace eTradeAPI.API.controller
 
         [HttpDelete("[action]/{id}")]
         [Authorize(AuthenticationSchemes = "Admin")]
-        [AuthorizeDefination(Menu = AuthorizeDefinationConstants.Products, ActionType = ActionType.Deleting, Defination = "Delete Products Images")]
+        [AuthorizeDefination(Menu = AuthorizeDefinationConstants.Products, ActionType = ActionType.Deleting, Defination = "Delete Product Image")]
         public async Task<IActionResult> DeleteProductImage([FromRoute] RemoveProductImageCommandRequest removeProductImageCommandRequest, [FromQuery] string imageId)
         {
             removeProductImageCommandRequest.ImageId = imageId;
@@ -107,12 +114,11 @@ namespace eTradeAPI.API.controller
         [HttpGet("[action]")]
         [Authorize(AuthenticationSchemes = "Admin")]
         [AuthorizeDefination(Menu = AuthorizeDefinationConstants.Products, ActionType = ActionType.Updating, Defination = "Change Showcase Image")]
-        public async Task <IActionResult> ChangeShowcaseImage([FromQuery] ChangeShowcaseImageCommandRequest changeShowcaseImageCommandRequest)
+        public async Task<IActionResult> ChangeShowcaseImage([FromQuery] ChangeShowcaseImageCommandRequest changeShowcaseImageCommandRequest)
         {
             ChangeShowcaseImageCommandResponse response = await _mediator.Send(changeShowcaseImageCommandRequest);
             return Ok(response);
         }
-
     }
 }
 
