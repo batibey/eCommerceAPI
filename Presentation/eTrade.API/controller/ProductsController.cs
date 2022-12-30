@@ -6,6 +6,7 @@ using eTrade.Application.Enums;
 using eTrade.Application.Features.Commands.Product.CreateProduct;
 using eTrade.Application.Features.Commands.Product.RemoveProduct;
 using eTrade.Application.Features.Commands.Product.UpdateProduct;
+using eTrade.Application.Features.Commands.Product.UpdateStockQrCodeToProduct;
 using eTrade.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage;
 using eTrade.Application.Features.Commands.ProductImageFile.RemoveProductImage;
 using eTrade.Application.Features.Commands.ProductImageFile.UploadProductImage;
@@ -46,6 +47,13 @@ namespace eTradeAPI.API.controller
         {
             var data = await _productService.QrCodeToProductAsync(productId);
             return File(data, "image/png");
+        }
+
+        [HttpPut("qrcode")]
+        public async Task<IActionResult> UpdateStockQrCodeToProduct(UpdateStockQrCodeToProductCommandRequest updateStockQrCodeToProductCommandRequest)
+        {
+            UpdateStockQrCodeToProductCommandResponse response = await _mediator.Send(updateStockQrCodeToProductCommandRequest);
+            return Ok(response);
         }
 
         [HttpGet("{Id}")]
