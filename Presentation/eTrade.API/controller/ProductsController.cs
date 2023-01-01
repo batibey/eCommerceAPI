@@ -109,15 +109,15 @@ namespace eTradeAPI.API.controller
             return Ok(response);
         }
 
-        [HttpDelete("[action]/{id}")]
-        [Authorize(AuthenticationSchemes = "Admin")]
-        [AuthorizeDefination(Menu = AuthorizeDefinationConstants.Products, ActionType = ActionType.Deleting, Defination = "Delete Product Image")]
-        public async Task<IActionResult> DeleteProductImage([FromRoute] RemoveProductImageCommandRequest removeProductImageCommandRequest, [FromQuery] string imageId)
-        {
-            removeProductImageCommandRequest.ImageId = imageId;
-            RemoveProductImageCommandResponse response = await _mediator.Send(removeProductImageCommandRequest);
-            return Ok();
-        }
+        //[HttpDelete("[action]/{id}")]
+        //[Authorize(AuthenticationSchemes = "Admin")]
+        //[AuthorizeDefination(Menu = AuthorizeDefinationConstants.Products, ActionType = ActionType.Deleting, Defination = "Delete Product Image")]
+        //public async Task<IActionResult> DeleteProductImage([FromRoute] RemoveProductImageCommandRequest removeProductImageCommandRequest, [FromQuery] string imageId)
+        //{
+        //    removeProductImageCommandRequest.ImageId = imageId;
+        //    RemoveProductImageCommandResponse response = await _mediator.Send(removeProductImageCommandRequest);
+        //    return Ok();
+        //}
 
         [HttpGet("[action]")]
         [Authorize(AuthenticationSchemes = "Admin")]
